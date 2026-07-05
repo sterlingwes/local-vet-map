@@ -6627,5 +6627,615 @@
  "1140 Parkhill Rd W, Peterborough, Ontario, Canada": [
   44.3055159,
   -78.3651644
+ ],
+ "440 Hazeldean Rd, Kanata, Ontario, Canada": [
+  45.2999173,
+  -75.8847529
+ ],
+ "1737 Queen Street East, Toronto, Ontario, Canada": [
+  43.66747,
+  -79.31066
+ ],
+ "1770 King St E, Hamilton, Ontario, Canada": [
+  43.2321174,
+  -79.812211
+ ],
+ "160 Kortright Rd W, Guelph, Ontario, Canada": [
+  43.5140112,
+  -80.2184881
+ ],
+ "872 Lakeshore Rd E, Mississauga, Ontario, Canada": [
+  43.573565,
+  -79.5620432
+ ],
+ "486 Lawrence Ave W, Toronto, Ontario, Canada": [
+  43.7194361,
+  -79.4295986
+ ],
+ "135 Lexington Court, Waterloo, Ontario, Canada": [
+  43.4883501,
+  -80.5176556
+ ],
+ "101 Fanshawe Park Rd E, London, Ontario, Canada": [
+  43.027545,
+  -81.2759351
+ ],
+ "1255 Southdale Rd E, London, Ontario, Canada": [
+  42.9458398,
+  -81.197352
+ ],
+ "2285 Bristol Circle, Oakville, Ontario, Canada": [
+  43.5161113,
+  -79.6736289
+ ],
+ "745 Mount Pleasant Rd, Toronto, Ontario, Canada": [
+  43.7074575,
+  -79.3894397
+ ],
+ "1096 Adelaide St N, London, Ontario, Canada": [
+  43.0116356,
+  -81.2427495
+ ],
+ "86 Big Apple Dr, Colborne, Ontario, Canada": [
+  44.0144285,
+  -77.8922354
+ ],
+ "420 Leacock Drive, Barrie, Ontario, Canada": [
+  44.3916912,
+  -79.7227075
+ ],
+ "670 Taunton Rd W, Oshawa, Ontario, Canada": [
+  43.9276152,
+  -78.9034127
+ ],
+ "2148 Carling Ave, Ottawa, Ontario, Canada": [
+  45.3694421,
+  -75.7687612
+ ],
+ "4247 Oil Heritage Rd, Petrolia, Ontario, Canada": [
+  42.8845072,
+  -82.1239282
+ ],
+ "503 Elm St, Port Colborne, Ontario, Canada": [
+  42.8919213,
+  -79.254644
+ ],
+ "16 Pretoria Ave, Ottawa, Ontario, Canada": [
+  45.4104018,
+  -75.6850004
+ ],
+ "11 Centre St W, Richmond Hill, Ontario, Canada": [
+  43.875929,
+  -79.4385166
+ ],
+ "1284 Yonge St, Toronto, Ontario, Canada": [
+  43.683761,
+  -79.3925539
+ ],
+ "2229 Kingston Rd, Scarborough, Ontario, Canada": [
+  43.70451,
+  -79.25209
+ ],
+ "3271 Yonge St, Toronto, Ontario, Canada": [
+  43.7296268,
+  -79.4031791
+ ],
+ "6601 Main Street, Stouffville, Ontario, Canada": [
+  43.9732041,
+  -79.2379049
+ ],
+ "21 Rolark Drive, Toronto, Ontario, Canada": [
+  43.7646205,
+  -79.2928897
+ ],
+ "2700 Dufferin St, Toronto, Ontario, Canada": [
+  43.7023661,
+  -79.4538811
+ ],
+ "256 Sheppard Ave W, Willowdale, Ontario, Canada": [
+  43.7588794,
+  -79.423389
+ ],
+ "171 North Queen Street, Etobicoke, Ontario, Canada": [
+  43.6180975,
+  -79.5568688
+ ],
+ "9750 Weston Rd,, Vaughan, Ontario, Canada": [
+  43.8404823,
+  -79.5597836
+ ],
+ "125 Hawkview Blvd, Vaughan, Ontario, Canada": [
+  43.8289066,
+  -79.5511501
+ ],
+ "4 John St, Sundridge, Ontario, Canada": [
+  45.7734379,
+  -79.3988285
+ ],
+ "844 Bessy trail, Milton, Ontario, Canada": [
+  43.5123727,
+  -79.8525
+ ],
+ "1050 Paramount Dr, Stoney Creek, Ontario, Canada": [
+  43.199503,
+  -79.7938339
+ ],
+ "3522 Wyman Crescent, Ottawa, Ontario, Canada": [
+  45.3454825,
+  -75.6562179
+ ],
+ "20 Queen St., Morriston, Ontario, Canada": [
+  43.4478733,
+  -80.1165531
+ ],
+ "755 Queensway East, Mississauga, Ontario, Canada": [
+  43.5903454,
+  -79.590847
+ ],
+ "920 Yonge St, Toronto, Ontario, Canada": [
+  43.6740334,
+  -79.3890853
+ ],
+ "1210 Journey's End Circle, Newmarket, Ontario, Canada": null,
+ "L3Y 8Z6, Ontario, Canada": null,
+ "4621 Durham Rd, Beamsville, Ontario, Canada": [
+  43.1845161,
+  -79.5075994
+ ],
+ "151 Charles Street W, Kitchener, Ontario, Canada": [
+  43.4509609,
+  -80.4981771
+ ],
+ "13-4 Alliance Blvd, Barrie, Ontario, Canada": [
+  44.4096594,
+  -79.6823715
+ ],
+ "3101 Appleby Line, Burlington, Ontario, Canada": [
+  43.4091004,
+  -79.811172
+ ],
+ "14990 Simcoe Street, Port Perry, Ontario, Canada": [
+  44.09954,
+  -78.9456399
+ ],
+ "175 Main Street, Ottawa, Ontario, Canada": [
+  45.4097151,
+  -75.6780443
+ ],
+ "1354 Carling Avenue, Ottawa, Ontario, Canada": [
+  45.3849306,
+  -75.7360045
+ ],
+ "20 Clappison Ave., Waterdown, Ontario, Canada": [
+  43.3191666,
+  -79.9155546
+ ],
+ "222 Victoria Rd S, Guelph, Ontario, Canada": [
+  43.5513169,
+  -80.2225552
+ ],
+ "634 Victoria Street, Strathroy, Ontario, Canada": [
+  42.967395,
+  -81.6316147
+ ],
+ "86 Russell St W, Lindsay, Ontario, Canada": [
+  44.3526299,
+  -78.7414986
+ ],
+ "6060 Highway 7 East, Markham, Ontario, Canada": null,
+ "L3P 3A9, Ontario, Canada": null,
+ "108 Queen St, Lakefield, Ontario, Canada": [
+  44.4272692,
+  -78.2698676
+ ],
+ "356 Wilson St E, Ancaster, Ontario, Canada": [
+  43.2268548,
+  -79.9755158
+ ],
+ "2668 Binbrook Road, Binbrook, Ontario, Canada": [
+  43.1209012,
+  -79.8042437
+ ],
+ "1357 Bathurst St, Toronto, Ontario, Canada": [
+  43.6800147,
+  -79.4168781
+ ],
+ "72 Somerset Cres, London, Ontario, Canada": [
+  42.9431515,
+  -81.3232695
+ ],
+ "5547 Scharfield Rd, Manotick, Ontario, Canada": [
+  45.2239965,
+  -75.6859235
+ ],
+ "1108 Concession St, Russell, Ontario, Canada": [
+  45.2582554,
+  -75.3594319
+ ],
+ "665 River Road, Gloucester, Ontario, Canada": [
+  45.3120849,
+  -75.6937455
+ ],
+ "1630 Niagara Stone Rd, Virgil, Ontario, Canada": [
+  43.2266298,
+  -79.1166233
+ ],
+ "5779 Main Street,, Stouffville, Ontario, Canada": [
+  43.9672447,
+  -79.2645996
+ ],
+ "11 White Road, Lively, Ontario, Canada": [
+  46.4214985,
+  -81.1396267
+ ],
+ "3577 Walker Road, Windsor, Ontario, Canada": [
+  42.2723644,
+  -82.9754019
+ ],
+ "4040 Palladium Way, Burlington, Ontario, Canada": [
+  43.3965109,
+  -79.8294281
+ ],
+ "13 Maple Hill Rd, Walkerton, Ontario, Canada": null,
+ "N0G 2V0, Ontario, Canada": [
+  44.1265545,
+  -81.1436601
+ ],
+ "8 Brant Sideroad 20, Walkerton, Ontario, Canada": [
+  44.1285934,
+  -81.1000721
+ ],
+ "2679 Alta Vista Drive, Ottawa, Ontario, Canada": [
+  45.3729549,
+  -75.6620345
+ ],
+ "30 McNaughton Ave, Wallaceburg, Ontario, Canada": [
+  42.5881687,
+  -82.3859946
+ ],
+ "1413 Mosley Street, Wasaga Beach, Ontario, Canada": [
+  44.4855585,
+  -80.0567363
+ ],
+ "8213 Rama Road, Washago, Ontario, Canada": null,
+ "L0K 2B0, Ontario, Canada": [
+  44.7352758,
+  -79.3295374
+ ],
+ "414 Erb St W, Waterloo, Ontario, Canada": [
+  43.4531435,
+  -80.5528991
+ ],
+ "517 Gold St, Watford, Ontario, Canada": [
+  42.9518164,
+  -81.8791424
+ ],
+ "64 Hamilton St N, Waterdown, Ontario, Canada": [
+  43.332741,
+  -79.8972593
+ ],
+ "9580 Yonge Street,, Richmond Hill, Ontario, Canada": [
+  43.8620616,
+  -79.4353217
+ ],
+ "194 Thorold Rd W, Welland, Ontario, Canada": null,
+ "L3C 3V7, Ontario, Canada": null,
+ "535 Yonge Street, Toronto, Ontario, Canada": [
+  43.6642432,
+  -79.3841267
+ ],
+ "3580 Nafziger Rd, Wellesley, Ontario, Canada": [
+  43.4710436,
+  -80.7652883
+ ],
+ "95 Wellington Street South, Woodstock, Ontario, Canada": [
+  43.126928,
+  -80.75356
+ ],
+ "6664 First Line West, Elora, Ontario, Canada": null,
+ "N0B 1S0, Ontario, Canada": [
+  43.6802788,
+  -80.4235772
+ ],
+ "1210 Castlemore Rd, Markham, Ontario, Canada": null,
+ "L6E 0H7, Ontario, Canada": [
+  43.9033013,
+  -79.2671032
+ ],
+ "320 Mill St E, Elora, Ontario, Canada": [
+  43.6814365,
+  -80.4288518
+ ],
+ "555 Wellington Rd S, London, Ontario, Canada": [
+  42.9074367,
+  -81.206584
+ ],
+ "693 Colborne ST W, Brantford, Ontario, Canada": [
+  43.1302891,
+  -80.3140584
+ ],
+ "3710 Carp Road, Kanata, Ontario, Canada": [
+  45.339374,
+  -75.9873603
+ ],
+ "24 Rothsay Avenue, Etobicoke, Ontario, Canada": [
+  43.6251035,
+  -79.514534
+ ],
+ "5528 Lawrence Ave E, Scarborough, Ontario, Canada": [
+  43.78002,
+  -79.13812
+ ],
+ "760 Hyde Park Rd, London, Ontario, Canada": [
+  42.9777731,
+  -81.3225358
+ ],
+ "173 Main St, West Lorne, Ontario, Canada": [
+  42.6013663,
+  -81.6101895
+ ],
+ "3877 Orchard Ave, Vineland, Ontario, Canada": [
+  43.1502169,
+  -79.3891804
+ ],
+ "871 Berry Side Rd, Dunrobin, Ontario, Canada": null,
+ "K0A 1T0, Ontario, Canada": [
+  45.4359094,
+  -76.0305354
+ ],
+ "1632 Main St W, Hamilton, Ontario, Canada": [
+  43.257518,
+  -79.9318695
+ ],
+ "8280 Highway 27, Vaughan, Ontario, Canada": [
+  43.7848892,
+  -79.6264189
+ ],
+ "364 Churchill Avenue North, Ottawa, Ontario, Canada": [
+  45.3802101,
+  -75.7469017
+ ],
+ "6956 Financial Drive, Mississauga, Ontario, Canada": [
+  43.6103505,
+  -79.7485422
+ ],
+ "215 Centennial Road, Orangeville, Ontario, Canada": [
+  43.9030796,
+  -80.1180973
+ ],
+ "455 Wharncliffe Rd S, London, Ontario, Canada": [
+  42.9603319,
+  -81.2612916
+ ],
+ "601 Talbot Street, London, Ontario, Canada": [
+  42.9890497,
+  -81.2550443
+ ],
+ "450 Westheights Drive, Kitchener, Ontario, Canada": [
+  43.4179625,
+  -80.5360874
+ ],
+ "1415 Huron Rd., Kitchener, Ontario, Canada": [
+  43.3828618,
+  -80.4909257
+ ],
+ "851 Wonderland Road South, London, Ontario, Canada": [
+  42.9459356,
+  -81.2892531
+ ],
+ "570 Westney Road South, Ajax, Ontario, Canada": [
+  43.8301279,
+  -79.0320576
+ ],
+ "3 - 2512 Old Bronte Road, Oakville, Ontario, Canada": null,
+ "L6M 4J3, Ontario, Canada": [
+  43.4355167,
+  -79.7738466
+ ],
+ "2347 Weston Rd, Weston, Ontario, Canada": [
+  43.7061425,
+  -79.530901
+ ],
+ "1336 Westover Road, Millgrove, Ontario, Canada": null,
+ "L8B 1S1, Ontario, Canada": null,
+ "278 Bering Ave., Toronto, Ontario, Canada": [
+  43.6386305,
+  -79.5260602
+ ],
+ "39 Concession St E, Westport, Ontario, Canada": null,
+ "K0G 1X0, Ontario, Canada": [
+  44.6778996,
+  -76.3955235
+ ],
+ "1500 Royal York Rd, Weston, Ontario, Canada": null,
+ "M9P 3B6, Ontario, Canada": [
+  43.6919031,
+  -79.5321485
+ ],
+ "123 Hemlo Crescent, Kanata, Ontario, Canada": [
+  45.3114896,
+  -75.9202752
+ ],
+ "112 - 3050 Garden St, Whitby, Ontario, Canada": null,
+ "L1R 2G7, Ontario, Canada": [
+  43.9011737,
+  -78.9422034
+ ],
+ "1070 Wellington Road South, London, Ontario, Canada": [
+  42.8736896,
+  -81.1990707
+ ],
+ "965 Dundas Street West, Whitby, Ontario, Canada": [
+  43.8745594,
+  -78.9626093
+ ],
+ "2111 Aldersbrook Rd, London, Ontario, Canada": [
+  43.0163822,
+  -81.3108439
+ ],
+ "1822 Whites Rd N, Pickering, Ontario, Canada": null,
+ "L1V 4M1, Ontario, Canada": null,
+ "Pickering, Ontario, Canada": [
+  43.835765,
+  -79.090576
+ ],
+ "Matson Dr, Caledon, Ontario, Canada": [
+  43.9483797,
+  -79.7893268
+ ],
+ "417 Ferrill Cres, Carleton Place, Ontario, Canada": [
+  45.1440902,
+  -76.152719
+ ],
+ "26 Stump Bay Lane, Port Severn, Ontario, Canada": null,
+ "L0K 1S0, Ontario, Canada": [
+  44.8158989,
+  -79.7326313
+ ],
+ "10177 Hwy 6, RR 1, Wiarton, Ontario, Canada": null,
+ "N0H 2T0, Ontario, Canada": [
+  44.7606004,
+  -81.1303345
+ ],
+ "106 - 325 Max Becker Drive, Kitchener, Ontario, Canada": [
+  43.4056144,
+  -80.5011232
+ ],
+ "RR 2, Williamstown, Ontario, Canada": [
+  45.1466728,
+  -74.5795614
+ ],
+ "1465 Trussler Road, Kitchener, Ontario, Canada": [
+  43.3835587,
+  -80.5207659
+ ],
+ "PO Box 912, Granton, Ontario, Canada": null,
+ "N0M 1V0, Ontario, Canada": [
+  43.1818754,
+  -81.2992492
+ ],
+ "371 Wilson Rd S, Oshawa, Ontario, Canada": [
+  43.8924427,
+  -78.8393312
+ ],
+ "105 Hartzel Rd, St. Catharines, Ontario, Canada": [
+  43.1520453,
+  -79.2149422
+ ],
+ "26 Sixth Concession Rd, Brantford, Ontario, Canada": null,
+ "N3T 5L7, Ontario, Canada": [
+  43.1421652,
+  -80.3198498
+ ],
+ "4626 Sassafras Avenue, Windsor, Ontario, Canada": [
+  42.2487139,
+  -82.9688587
+ ],
+ "451 Grand Marais Rd W, Windsor, Ontario, Canada": [
+  42.2632542,
+  -83.0383726
+ ],
+ "1375A Provincial Road, Windsor, Ontario, Canada": [
+  42.264335,
+  -82.9894138
+ ],
+ "11 Alfred St E, Wingham, Ontario, Canada": [
+  43.8896116,
+  -81.3098962
+ ],
+ "8737 Wellington Rd 124, Guelph, Ontario, Canada": [
+  43.578889,
+  -80.246279
+ ],
+ "2980 Crosscurrent Dr, Mississauga, Ontario, Canada": [
+  43.5946881,
+  -79.7790129
+ ],
+ "3044 Stoneridge Rd, Ottawa, Ontario, Canada": [
+  45.4663175,
+  -75.9827112
+ ],
+ "1905 Danforth Ave, Toronto, Ontario, Canada": [
+  43.68473,
+  -79.31648
+ ],
+ "5731 Highway, Woodbridge, Ontario, Canada": [
+  43.7745476,
+  -79.6130019
+ ],
+ "6-485 Silvercreek Parkway N, Guelph, Ontario, Canada": [
+  43.551559,
+  -80.2963596
+ ],
+ "930 James St, Woodstock, Ontario, Canada": [
+  43.131272,
+  -80.7333635
+ ],
+ "6958 Wellington Rd 16, Belwood, Ontario, Canada": null,
+ "N0B 1J0, Ontario, Canada": [
+  43.77867,
+  -80.3466145
+ ],
+ "20 Millington St, Toronto, Ontario, Canada": [
+  43.66587,
+  -79.36598
+ ],
+ "631 St Clair Ave W, Toronto, Ontario, Canada": [
+  43.6818858,
+  -79.4238139
+ ],
+ "9019 Bayview Ave, Richmond Hill, Ontario, Canada": [
+  43.8502882,
+  -79.4082462
+ ],
+ "28 Bysham Park Dr, Woodstock, Ontario, Canada": [
+  43.1375077,
+  -80.721772
+ ],
+ "678 Sheppard Avenue East, North York, Ontario, Canada": [
+  43.7689624,
+  -79.3801789
+ ],
+ "2586 Yonge Street, Toronto, Ontario, Canada": [
+  43.7143352,
+  -79.4001643
+ ],
+ "1 Spadina Road, Richmond Hill, Ontario, Canada": [
+  43.8613665,
+  -79.394724
+ ],
+ "113 Davenport Road, Toronto, Ontario, Canada": [
+  43.6741932,
+  -79.3923571
+ ],
+ "33 Alvin Avenue, Toronto, Ontario, Canada": [
+  43.6895694,
+  -79.3927904
+ ],
+ "300 York Mills Rd, Toronto, Ontario, Canada": [
+  43.7522879,
+  -79.3716668
+ ],
+ "984 Castlemore Avenue, Markham, Ontario, Canada": [
+  43.901356,
+  -79.277838
+ ],
+ "130 Summerdale drive, Thornhill, Ontario, Canada": null,
+ "L3T 6Y6, Ontario, Canada": null,
+ "1300 Don Mills Road, Toronto, Ontario, Canada": [
+  43.7454308,
+  -79.3464914
+ ],
+ "135 Avenue Rd, Toronto, Ontario, Canada": [
+  43.6739561,
+  -79.3958576
+ ],
+ "24018 Woodbine Ave,, Keswick, Ontario, Canada": [
+  44.228786,
+  -79.4476212
+ ],
+ "30 Saskatoon Dr., Etobicoke, Ontario, Canada": [
+  43.69503,
+  -79.53767
  ]
 }
