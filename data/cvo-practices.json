@@ -1,0 +1,329 @@
+[
+ {
+  "id": "5c38f8db5420263344b6aea2",
+  "name": "10th Avenue Poultry Services",
+  "telephone": "519-364-3200",
+  "email": null,
+  "street1": "90 10th Avenue",
+  "street2": "",
+  "city": "Hanover",
+  "province": "Ontario",
+  "postal_code": "N4N 3B8",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [
+   "Poultry Service - 1"
+  ],
+  "patient_groups": "Food Animal",
+  "patient_types": "Poultry – Commercial",
+  "companion": false,
+  "established": "Sep 19, 2019",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000bbe",
+    "name": "Dr. Kathleen Elizabeth Long",
+    "position": "Director",
+    "primary": true,
+    "active": true,
+    "start_date": "2023-10-02T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "588a41a8336166165d001f6f",
+  "name": "16th Avenue Animal Hospital",
+  "telephone": "(905) 554-7210",
+  "email": null,
+  "street1": "5970 16th Avenue",
+  "street2": "Unit 104",
+  "city": "Markham",
+  "province": "Ontario",
+  "postal_code": "L3P 7R1",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [
+   "Companion Animal Hospital"
+  ],
+  "patient_groups": "Companion Animal",
+  "patient_types": "Cat, Dog",
+  "companion": true,
+  "established": "Mar 27, 2017",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000108",
+    "name": "Dr. Fareed Ahmad",
+    "position": "Director & Owner",
+    "primary": false,
+    "active": true,
+    "start_date": "2019-05-24T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "5cc9db596f9859057b2a5908",
+  "name": "A and J Equine Services",
+  "telephone": "519-787-4125",
+  "email": null,
+  "street1": "8153 Sideroad 15",
+  "street2": "RR 3",
+  "city": "Fergus",
+  "province": "Ontario",
+  "postal_code": "N1M 2W4",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [
+   "Equine Mobile - 1"
+  ],
+  "patient_groups": "Equine",
+  "patient_types": "Equine Breeding, Equine Pleasure, Equine Performance",
+  "companion": false,
+  "established": "Aug 13, 2019",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000755",
+    "name": "Dr. Angela Mary Cook",
+    "position": "Director & Owner",
+    "primary": true,
+    "active": true,
+    "start_date": "2019-07-29T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "588a41a8336166165d001fe3",
+  "name": "Abbey Animal Hospital",
+  "telephone": "(905) 827-4100",
+  "email": null,
+  "street1": "1131 Nottinghill Gate",
+  "street2": "Units 10, 11 and 12",
+  "city": "Oakville",
+  "province": "Ontario",
+  "postal_code": "L6M 1K5",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [
+   "Companion Animal Hospital"
+  ],
+  "patient_groups": "Companion Animal",
+  "patient_types": "Cat, Dog, Small Mammals",
+  "companion": true,
+  "established": "Jan 1, 1987",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000288",
+    "name": "Dr. Maggie M. B. Rockx",
+    "position": "Director",
+    "primary": true,
+    "active": true,
+    "start_date": "2025-08-21T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "588a41a8336166165d00222c",
+  "name": "Abbeydale Animal Hospital",
+  "telephone": "(519) 631-6056",
+  "email": null,
+  "street1": "26 Sparling Rd",
+  "street2": "",
+  "city": "St. Thomas",
+  "province": "Ontario",
+  "postal_code": "N5P 4A7",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [
+   "Companion Animal Hospital"
+  ],
+  "patient_groups": "Companion Animal",
+  "patient_types": "Cat, Dog",
+  "companion": true,
+  "established": "Mar 27, 2017",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000cad",
+    "name": "Dr. Craig Cole Storey",
+    "position": "Director & Owner",
+    "primary": true,
+    "active": true,
+    "start_date": "2008-11-01T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "588a41a8336166165d002274",
+  "name": "Abbotsford Animal Hospital",
+  "telephone": "(905) 727-7379",
+  "email": null,
+  "street1": "14958 Yonge St",
+  "street2": "",
+  "city": "Aurora",
+  "province": "Ontario",
+  "postal_code": "L4G 1M7",
+  "organization_type": "Active",
+  "categories_active": [
+   "Companion Animal Hospital",
+   "Companion Animal Mobile - 1"
+  ],
+  "categories_all": [
+   "Companion Animal Hospital",
+   "Companion Animal Mobile - 1"
+  ],
+  "patient_groups": "Companion Animal",
+  "patient_types": "Cat, Dog, Small Mammals",
+  "companion": true,
+  "established": "Jan 1, 1986",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000ce9",
+    "name": "Dr. Derek Edward James Clark",
+    "position": "Director",
+    "primary": true,
+    "active": true,
+    "start_date": "2021-01-13T05:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "588a41a8336166165d001cc0",
+  "name": "Abernant Veterinary Hospital",
+  "telephone": "(705) 428-3287",
+  "email": null,
+  "street1": "6725 HWY 26 E, RR 2",
+  "street2": "PO Box 730",
+  "city": "Stayner",
+  "province": "Ontario",
+  "postal_code": "L0M 1S0",
+  "organization_type": "Active",
+  "categories_active": [
+   "Companion Animal Hospital",
+   "Companion Animal Mobile - 1"
+  ],
+  "categories_all": [
+   "Companion Animal Hospital",
+   "Companion Animal Mobile - 1"
+  ],
+  "patient_groups": "Companion Animal",
+  "patient_types": "Cat, Dog, Small Mammals, Reptile",
+  "companion": true,
+  "established": "Jan 31, 2023",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000ce4",
+    "name": "Dr. Tai Lea Holley DeLuna",
+    "position": "Director & Owner",
+    "primary": true,
+    "active": true,
+    "start_date": "2011-10-11T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "588a41a8336166165d001eb7",
+  "name": "Ableson Veterinary Services",
+  "telephone": "(705) 910-5519",
+  "email": null,
+  "street1": "153B Trunk Road",
+  "street2": "",
+  "city": "Sault Ste Marie",
+  "province": "Ontario",
+  "postal_code": "P6A 3S5",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [
+   "Companion Animal Hospital",
+   "Companion Animal Mobile - 1"
+  ],
+  "patient_groups": "Companion Animal, Food Animal",
+  "patient_types": "Cat, Dog, Small Ruminant",
+  "companion": true,
+  "established": "Jun 4, 2014",
+  "people": [
+   {
+    "registrant_id": "678fe1b62d854eb331b87a6a",
+    "name": "Dr. Madeline Christina Ableson",
+    "position": "Director & Owner",
+    "primary": true,
+    "active": true,
+    "start_date": "2025-07-01T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "588a41a8336166165d001ed3",
+  "name": "Acton Veterinary Clinic",
+  "telephone": "519-853-1450",
+  "email": null,
+  "street1": "93 Mill Street East",
+  "street2": "",
+  "city": "Acton",
+  "province": "Ontario",
+  "postal_code": "L7J 1H5",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [
+   "Companion Animal Hospital"
+  ],
+  "patient_groups": "Companion Animal",
+  "patient_types": "Bird, Cat, Dog, Small Mammals",
+  "companion": true,
+  "established": "Jan 6, 1990",
+  "people": [
+   {
+    "registrant_id": "588a3bfd33616616ef000c2a",
+    "name": "Dr. Stephen Andrew Hess",
+    "position": "Director & Owner",
+    "primary": true,
+    "active": true,
+    "start_date": "1996-10-01T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ },
+ {
+  "id": "65aa899b4d904ef278f3e309",
+  "name": "Ad Astra Veterinary Services",
+  "telephone": "807-626-6200",
+  "email": null,
+  "street1": "538 Tungsten Terrace",
+  "street2": "",
+  "city": "Orleans",
+  "province": "Ontario",
+  "postal_code": "K4A1A8",
+  "organization_type": "Active",
+  "categories_active": [],
+  "categories_all": [],
+  "patient_groups": "Companion Animal",
+  "patient_types": "Cat, Dog",
+  "companion": true,
+  "established": "Apr 19, 2024",
+  "people": [
+   {
+    "registrant_id": "5ac52444673020db24012acf",
+    "name": "Dr. Ariana Rose Spina",
+    "position": "Director & Owner",
+    "primary": true,
+    "active": true,
+    "start_date": "2024-04-19T04:00:00.000Z",
+    "registration_status": "Active"
+   }
+  ],
+  "source": "CVO public register"
+ }
+]
