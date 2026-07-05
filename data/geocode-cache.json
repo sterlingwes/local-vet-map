@@ -1,0 +1,689 @@
+{
+ "Ajax, Ontario, Canada": [
+  43.8505287,
+  -79.0208814
+ ],
+ "Alliston, Ontario, Canada": [
+  44.1539369,
+  -79.8692321
+ ],
+ "Amherstview, Ontario, Canada": [
+  44.2200142,
+  -76.6432363
+ ],
+ "Ancaster, Ontario, Canada": [
+  43.225693,
+  -79.976692
+ ],
+ "Arnprior, Ontario, Canada": [
+  45.433515,
+  -76.3543692
+ ],
+ "Aurora, Ontario, Canada": [
+  43.99973,
+  -79.467545
+ ],
+ "Aylmer, Ontario, Canada": [
+  42.773227,
+  -80.983658
+ ],
+ "Barrie, Ontario, Canada": [
+  44.3893208,
+  -79.6901302
+ ],
+ "Belleville, Ontario, Canada": [
+  44.2436328,
+  -77.3607597
+ ],
+ "Blenheim, Ontario, Canada": [
+  42.3354182,
+  -81.9974055
+ ],
+ "Bobcaygeon, Ontario, Canada": [
+  44.5372969,
+  -78.5444995
+ ],
+ "Bolton, Ontario, Canada": [
+  43.879548,
+  -79.73826
+ ],
+ "Bowmanville, Ontario, Canada": [
+  43.9122995,
+  -78.6891675
+ ],
+ "Bracebridge, Ontario, Canada": [
+  45.041508,
+  -79.310989
+ ],
+ "Bradford, Ontario, Canada": [
+  44.1171265,
+  -79.5560133
+ ],
+ "Brampton, Ontario, Canada": [
+  43.685832,
+  -79.7599366
+ ],
+ "Brantford, Ontario, Canada": [
+  43.1408157,
+  -80.2631733
+ ],
+ "Brockville, Ontario, Canada": [
+  44.6039207,
+  -75.7016829
+ ],
+ "Burlington, Ontario, Canada": [
+  43.3248924,
+  -79.7966835
+ ],
+ "Caledonia, Ontario, Canada": [
+  43.6923229,
+  -79.4653403
+ ],
+ "Cambridge, Ontario, Canada": [
+  43.3600536,
+  -80.3123023
+ ],
+ "Caradoc, Ontario, Canada": [
+  42.8806615,
+  -81.5287377
+ ],
+ "Cavan, Ontario, Canada": [
+  44.1996764,
+  -78.4686767
+ ],
+ "Chatham, Ontario, Canada": [
+  42.4057219,
+  -82.1853837
+ ],
+ "Chelmsford, Ontario, Canada": [
+  46.5691573,
+  -81.1978944
+ ],
+ "Clarington, Ontario, Canada": [
+  43.9686695,
+  -78.6513545
+ ],
+ "Colborne, Ontario, Canada": [
+  44.0050196,
+  -77.8879789
+ ],
+ "Collingwood, Ontario, Canada": [
+  44.5027226,
+  -80.2172379
+ ],
+ "Courtice, Ontario, Canada": [
+  43.9117719,
+  -78.7780464
+ ],
+ "Decou Road, Ontario, Canada": [
+  46.3513731,
+  -81.4940552
+ ],
+ "Deep River, Ontario, Canada": [
+  46.101328,
+  -77.487602
+ ],
+ "Dresden, Ontario, Canada": [
+  42.5909853,
+  -82.1795314
+ ],
+ "East York, Ontario, Canada": [
+  43.699971,
+  -79.3325198
+ ],
+ "Elmvale, Ontario, Canada": [
+  45.3968931,
+  -75.6306446
+ ],
+ "Embrun, Ontario, Canada": [
+  45.2742012,
+  -75.2749125
+ ],
+ "Espanola, Ontario, Canada": [
+  46.265341,
+  -81.769867
+ ],
+ "Etobicoke, Ontario, Canada": [
+  43.6435559,
+  -79.5656326
+ ],
+ "Gananoque, Ontario, Canada": [
+  44.3296206,
+  -76.1626654
+ ],
+ "Georgetown, Ontario, Canada": [
+  43.6553828,
+  -79.9190449
+ ],
+ "Gloucester, Ontario, Canada": [
+  45.3583853,
+  -75.5707311
+ ],
+ "Goderich, Ontario, Canada": [
+  43.7430924,
+  -81.7110949
+ ],
+ "Gravenhurst, Ontario, Canada": [
+  44.91741,
+  -79.373131
+ ],
+ "Grimsby, Ontario, Canada": [
+  43.1931661,
+  -79.560677
+ ],
+ "Guelph, Ontario, Canada": [
+  43.5460516,
+  -80.2493276
+ ],
+ "Hamilton, Ontario, Canada": [
+  43.2560802,
+  -79.8728583
+ ],
+ "Holland Landing, Ontario, Canada": [
+  44.1015097,
+  -79.4914772
+ ],
+ "Huntsville, Ontario, Canada": [
+  45.3263919,
+  -79.218434
+ ],
+ "Ingersoll, Ontario, Canada": [
+  43.037725,
+  -80.88211
+ ],
+ "Innisfil, Ontario, Canada": [
+  44.3150892,
+  -79.5461073
+ ],
+ "Kanata, Ontario, Canada": [
+  45.3128048,
+  -75.8940505
+ ],
+ "Kemptville, Ontario, Canada": [
+  45.0154164,
+  -75.644567
+ ],
+ "Kingston, Ontario, Canada": [
+  44.3054151,
+  -76.4283781
+ ],
+ "Kitchener, Ontario, Canada": [
+  43.451291,
+  -80.4927815
+ ],
+ "Komoka, Ontario, Canada": [
+  42.9452837,
+  -81.4321521
+ ],
+ "Lively, Ontario, Canada": [
+  46.4365168,
+  -81.146366
+ ],
+ "London, Ontario, Canada": [
+  42.9836747,
+  -81.2496068
+ ],
+ "Manotick, Ontario, Canada": [
+  45.2264407,
+  -75.6860593
+ ],
+ "Markham, Ontario, Canada": [
+  43.8563707,
+  -79.3376825
+ ],
+ "Midhurst, Ontario, Canada": [
+  44.4475856,
+  -79.733624
+ ],
+ "Midland, Ontario, Canada": [
+  44.750147,
+  -79.885712
+ ],
+ "Mississauga, Ontario, Canada": [
+  43.5884727,
+  -79.643658
+ ],
+ "Monck Drive, Ontario, Canada": null,
+ "Mono, Ontario, Canada": [
+  43.9462199,
+  -80.1042319
+ ],
+ "Morrisburg, Ontario, Canada": [
+  44.8977043,
+  -75.1829545
+ ],
+ "Napanee, Ontario, Canada": [
+  44.2473883,
+  -76.9505543
+ ],
+ "Navan, Ontario, Canada": [
+  45.421106,
+  -75.425949
+ ],
+ "Nepean, Ontario, Canada": [
+  45.2862008,
+  -75.7512324
+ ],
+ "Newcastle, Ontario, Canada": [
+  43.9174838,
+  -78.5888307
+ ],
+ "Newmarket, Ontario, Canada": [
+  44.056258,
+  -79.461708
+ ],
+ "Niagara Falls, Ontario, Canada": [
+  43.1065603,
+  -79.0639039
+ ],
+ "Niagara-on-the-Lake, Ontario, Canada": [
+  43.2556116,
+  -79.0723264
+ ],
+ "North Bay, Ontario, Canada": [
+  46.3092115,
+  -79.4607617
+ ],
+ "North York, Ontario, Canada": [
+  43.7543217,
+  -79.4491057
+ ],
+ "Oakville, Ontario, Canada": [
+  43.447436,
+  -79.666672
+ ],
+ "Orangeville, Ontario, Canada": [
+  43.9193171,
+  -80.0973754
+ ],
+ "Orillia, Ontario, Canada": [
+  44.6066135,
+  -79.4169256
+ ],
+ "Orleans, Ontario, Canada": [
+  45.4653654,
+  -75.5035343
+ ],
+ "Orton, Ontario, Canada": [
+  43.7770365,
+  -79.2110989
+ ],
+ "Osgoode, Ontario, Canada": [
+  43.6508016,
+  -79.3865409
+ ],
+ "Oshawa, Ontario, Canada": [
+  43.8975558,
+  -78.8635324
+ ],
+ "Ottawa, Ontario, Canada": [
+  45.4208777,
+  -75.6901106
+ ],
+ "Owen Sound, Ontario, Canada": [
+  44.5678105,
+  -80.9430094
+ ],
+ "Pembroke, Ontario, Canada": [
+  45.8209741,
+  -77.1115433
+ ],
+ "Petawawa, Ontario, Canada": [
+  45.8984286,
+  -77.2826645
+ ],
+ "Peterborough, Ontario, Canada": [
+  44.3048009,
+  -78.3199496
+ ],
+ "Petrolia, Ontario, Canada": [
+  42.882002,
+  -82.149582
+ ],
+ "Port Colborne, Ontario, Canada": [
+  42.8862392,
+  -79.2513905
+ ],
+ "Port Elgin, Ontario, Canada": [
+  44.4358826,
+  -81.3889458
+ ],
+ "Port Hope, Ontario, Canada": [
+  43.9515755,
+  -78.2939704
+ ],
+ "Prescott, Ontario, Canada": [
+  44.7184132,
+  -75.5191675
+ ],
+ "Renfrew, Ontario, Canada": [
+  45.7300564,
+  -77.2793698
+ ],
+ "Richmond Hill, Ontario, Canada": [
+  43.8801166,
+  -79.4392925
+ ],
+ "Rosslyn, Ontario, Canada": [
+  48.3646793,
+  -89.442499
+ ],
+ "Russell, Ontario, Canada": [
+  45.2573172,
+  -75.3583264
+ ],
+ "Sarnia, Ontario, Canada": [
+  42.9743821,
+  -82.403533
+ ],
+ "Scarborough, Ontario, Canada": [
+  43.7729744,
+  -79.2576479
+ ],
+ "Simcoe, Ontario, Canada": [
+  44.5014007,
+  -79.7038708
+ ],
+ "South, Ontario, Canada": [
+  43.6739429,
+  -79.7180203
+ ],
+ "Southampton, Ontario, Canada": [
+  44.4957386,
+  -81.3715844
+ ],
+ "St. Catharines, Ontario, Canada": [
+  43.1579812,
+  -79.2441003
+ ],
+ "Stoney Creek, Ontario, Canada": [
+  43.2167526,
+  -79.7567616
+ ],
+ "Stouffville, Ontario, Canada": [
+  43.9717581,
+  -79.2454446
+ ],
+ "Stratford, Ontario, Canada": [
+  43.3700899,
+  -80.9818016
+ ],
+ "Sturgeon Falls, Ontario, Canada": [
+  46.3653409,
+  -79.9321566
+ ],
+ "Sudbury, Ontario, Canada": [
+  46.49272,
+  -80.991211
+ ],
+ "Thomas, Ontario, Canada": [
+  46.4726151,
+  -81.066754
+ ],
+ "Thornbury, Ontario, Canada": [
+  44.5618428,
+  -80.4528539
+ ],
+ "Thornhill, Ontario, Canada": [
+  43.8161477,
+  -79.4245925
+ ],
+ "Toronto, Ontario, Canada": [
+  43.6534817,
+  -79.3839347
+ ],
+ "Trenton, Ontario, Canada": [
+  44.1019126,
+  -77.57539
+ ],
+ "Uxbridge, Ontario, Canada": [
+  44.1088502,
+  -79.1226768
+ ],
+ "Wallaceburg, Ontario, Canada": [
+  42.5928652,
+  -82.3873866
+ ],
+ "Waterdown, Ontario, Canada": [
+  43.3314156,
+  -79.8956803
+ ],
+ "Waterloo, Ontario, Canada": [
+  43.4652699,
+  -80.5222961
+ ],
+ "Whitby, Ontario, Canada": [
+  43.87982,
+  -78.9421751
+ ],
+ "Williamstown, Ontario, Canada": [
+  45.1466728,
+  -74.5795614
+ ],
+ "Winchester, Ontario, Canada": [
+  45.0928774,
+  -75.35299
+ ],
+ "Windsor, Ontario, Canada": [
+  42.2858536,
+  -82.9780695
+ ],
+ "Woodbridge, Ontario, Canada": [
+  43.7848982,
+  -79.5923855
+ ],
+ "Allandale Veterinary Hospital, Barrie, Ontario, Canada": null,
+ "Animal Hospital Gravenhurst, Gravenhurst, Ontario, Canada": null,
+ "Bathurst Animal Hospital, Toronto, Ontario, Canada": [
+  43.6708097,
+  -79.4135999
+ ],
+ "Beattie Pet Hospital – Ancaster, Ancaster, Ontario, Canada": null,
+ "Beattie Pet Hospital – Burlington, Burlington, Ontario, Canada": null,
+ "Beattie Pet Hospital – Stoney Creek, Stoney Creek, Ontario, Canada": null,
+ "Beattie Pet Hospital – East Hamilton, Hamilton, Ontario, Canada": null,
+ "Big Bay Animal Hospital, Barrie, Ontario, Canada": null,
+ "Bowmanville Veterinary Clinic, Bowmanville, Ontario, Canada": null,
+ "Bracebridge Animal Hospital, Bracebridge, Ontario, Canada": null,
+ "Brack Animal Hospital, Windsor, Ontario, Canada": null,
+ "Cat Clinic, Hamilton, Ontario, Canada": [
+  43.2427776,
+  -79.8585509
+ ],
+ "Central Toronto Veterinary Referral Clinic, Toronto, Ontario, Canada": null,
+ "Chatham Kent Veterinary Hospital, Chatham, Ontario, Canada": [
+  42.4151627,
+  -82.1794087
+ ],
+ "Dissette Animal Hospital, Bradford, Ontario, Canada": null,
+ "Egan Animal Hospital, Chatham, Ontario, Canada": null,
+ "Eglinton Veterinary Facilities, Toronto, Ontario, Canada": null,
+ "Gananoque Veterinary Clinic, Gananoque, Ontario, Canada": null,
+ "Grand River Veterinary Hospital, Caledonia, Ontario, Canada": [
+  43.0790047,
+  -79.9491946
+ ],
+ "Grenville-Dundas Veterinary Clinic, Kemptville, Ontario, Canada": null,
+ "Heubner-Ridder Veterinary Hospital, Goderich, Ontario, Canada": null,
+ "Huntsville Animal Hospital, Huntsville, Ontario, Canada": null,
+ "Kemptville Animal Hospital, Kemptville, Ontario, Canada": null,
+ "LeGallais Veterinary Hospital, Aurora, Ontario, Canada": null,
+ "Manning Equine Veterinary Services, Orton, Ontario, Canada": null,
+ "McGilvray Veterinary Hospital, Toronto, Ontario, Canada": null,
+ "Mississauga Animal Hospital, Mississauga, Ontario, Canada": null,
+ "Morgan Animal Hospital, Niagara Falls, Ontario, Canada": null,
+ "Navan Veterinary Services, Navan, Ontario, Canada": null,
+ "Newcastle Veterinary Clinic, Newcastle, Ontario, Canada": null,
+ "North Bay Animal Hospital, North Bay, Ontario, Canada": null,
+ "Oakpark Pet Hospital, Oakville, Ontario, Canada": null,
+ "Parkhill Animal Hospital, Peterborough, Ontario, Canada": null,
+ "Prescott Animal Hospital, Prescott, Ontario, Canada": null,
+ "Preston Animal Clinic, Cambridge, Ontario, Canada": null,
+ "Rideau St. Lawrence Veterinary Hospital, Prescott, Ontario, Canada": null,
+ "Russell Equine, Russell, Ontario, Canada": [
+  45.3037211,
+  -75.3941359
+ ],
+ "South Ridge Veterinary Clinic, South, Ontario, Canada": null,
+ "Stone Church Animal Clinic, Hamilton, Ontario, Canada": null,
+ "Sunset Strip Veterinary Clinic, Owen Sound, Ontario, Canada": null,
+ "Thicketwood Veterinary Hospital, Stouffville, Ontario, Canada": null,
+ "Thornbury Veterinary Hospital, Thornbury, Ontario, Canada": null,
+ "Thousand Islands Veterinary Services, Gananoque, Ontario, Canada": null,
+ "Three Island Veterinary Services, Bobcaygeon, Ontario, Canada": null,
+ "Uxbridge Veterinary Hospital, Uxbridge, Ontario, Canada": null,
+ "Veterinary Emergency Hospital of West Toronto, Mississauga, Ontario, Canada": null,
+ "Williamstown Veterinary Services, Williamstown, Ontario, Canada": null,
+ "Airport Animal Hospital, North Bay, Ontario, Canada": null,
+ "Ajax Animal Hospital, Ajax, Ontario, Canada": null,
+ "Alcona Animal Hospital, Innisfil, Ontario, Canada": null,
+ "Ambassador Animal Hospital, Windsor, Ontario, Canada": null,
+ "Animal Emergency Clinic of Durham Region, Whitby, Ontario, Canada": [
+  43.8895443,
+  -78.9027009
+ ],
+ "Aurora Animal Clinic, Aurora, Ontario, Canada": null,
+ "Aylmer Veterinary Clinic, Aylmer, Ontario, Canada": null,
+ "Baker Animal Clinic, Whitby, Ontario, Canada": null,
+ "Banner Road Veterinary Services, Ingersoll, Ontario, Canada": null,
+ "Barriefield Animal Hospital, Kingston, Ontario, Canada": null,
+ "Baxter Animal Hospital, Sudbury, Ontario, Canada": null,
+ "Bay Cat Hospital | Bay Dog Hospital, Toronto, Ontario, Canada": null,
+ "Briarwood Animal Hospital, Stoney Creek, Ontario, Canada": null,
+ "Carter Veterinary Hospital, Bowmanville, Ontario, Canada": null,
+ "Centennial Animal Hospital, Monck Drive, Ontario, Canada": null,
+ "Centretown Veterinary Hospital, Ottawa, Ontario, Canada": [
+  45.4080854,
+  -75.7158906
+ ],
+ "Champlain Animal Hospital, Peterborough, Ontario, Canada": [
+  44.3712683,
+  -78.2935446
+ ],
+ "Deep River Animal Services, Deep River, Ontario, Canada": null,
+ "Dresden Veterinary Clinic, Dresden, Ontario, Canada": null,
+ "Elgin Animal Hospital, Thomas, Ontario, Canada": null,
+ "Elmvale Veterinary Hospital, Elmvale, Ontario, Canada": null,
+ "Etobicoke Veterinary Hospital, Etobicoke, Ontario, Canada": null,
+ "Fairmont Animal Hospital, London, Ontario, Canada": null,
+ "Fifth Avenue Veterinary Clinic, Orangeville, Ontario, Canada": null,
+ "Georgetown Animal Clinic, Georgetown, Ontario, Canada": null,
+ "Gillies Grove Animal Hospital, Arnprior, Ontario, Canada": null,
+ "Golf Glen Veterinary Clinic, Aurora, Ontario, Canada": null,
+ "Gravenhurst Veterinary Services, Gravenhurst, Ontario, Canada": null,
+ "Gray Street Veterinary Services, Espanola, Ontario, Canada": null,
+ "Headon Forest Animal Hospital, Burlington, Ontario, Canada": null,
+ "Holland Landing Animal Hospital, Holland Landing, Ontario, Canada": null,
+ "Kawartha Veterinary Emergency Clinic (KVEC), Peterborough, Ontario, Canada": null,
+ "Kingston Napanee Spay Neuter Clinic, Kingston, Ontario, Canada": null,
+ "Kingston Road Animal Hospital, Toronto, Ontario, Canada": null,
+ "Kingston West Veterinary Hospital, Kingston, Ontario, Canada": null,
+ "Komoka-Kilworth Animal Clinic, Komoka, Ontario, Canada": null,
+ "Lauzon Veterinary Hospital, Windsor, Ontario, Canada": null,
+ "Lennox & Addington Animal Hospital, Napanee, Ontario, Canada": [
+  44.2611503,
+  -76.960514
+ ],
+ "Lockerby Animal Hospital, Sudbury, Ontario, Canada": null,
+ "Manitou Animal Hospital, Kitchener, Ontario, Canada": null,
+ "Merritt Animal Hospital, Chatham, Ontario, Canada": null,
+ "Mohns Avenue Veterinary Services, Petawawa, Ontario, Canada": null,
+ "Mono Veterinary Clinic, Mono, Ontario, Canada": null,
+ "Muskoka Animal Hospital, Huntsville, Ontario, Canada": null,
+ "North Hill Animal Hospital, Bolton, Ontario, Canada": null,
+ "Nottawasaga Valley Veterinary Hospital, Alliston, Ontario, Canada": null,
+ "Orillia Pet Hospital, Orillia, Ontario, Canada": null,
+ "Orono Veterinary Hospital, Clarington, Ontario, Canada": null,
+ "Osgoode Veterinary Services, Osgoode, Ontario, Canada": [
+  45.150113,
+  -75.5986508
+ ],
+ "Park Road Veterinary Clinic, Brantford, Ontario, Canada": null,
+ "Port Elgin Veterinary Clinic, Port Elgin, Ontario, Canada": null,
+ "Queensway Veterinary Hospital, Simcoe, Ontario, Canada": null,
+ "Sears Animal Hospital, London, Ontario, Canada": null,
+ "Sherbourne Animal Hospital, Toronto, Ontario, Canada": [
+  43.6540158,
+  -79.3691243
+ ],
+ "Simcoe Animal Hospital, Decou Road, Ontario, Canada": [
+  42.8219675,
+  -80.296546
+ ],
+ "Sims Animal Hospital, Kingston, Ontario, Canada": null,
+ "South Windsor Animal Hospital, Windsor, Ontario, Canada": null,
+ "Talbot Animal Clinic, Thomas, Ontario, Canada": null,
+ "Taunton Road Animal Hospital, Oshawa, Ontario, Canada": null,
+ "Toronto Animal Health Partners (AHP), North York, Ontario, Canada": null,
+ "Upper Bathurst Animal Clinic, North York, Ontario, Canada": null,
+ "Vaughan-Richmond Hill Veterinary Emergency Clinic, Richmond Hill, Ontario, Canada": null,
+ "Walden Animal Hospital, Lively, Ontario, Canada": null,
+ "Walker Road Animal Hospital, Windsor, Ontario, Canada": null,
+ "Watzin Veterinary Clinic, Waterdown, Ontario, Canada": null,
+ "West Brant Animal Hospital, Brantford, Ontario, Canada": null,
+ "404 Veterinary Emergency and Referral Hospital, Newmarket, Ontario, Canada": null,
+ "Alta Vista Animal Hospital, Gloucester, Ontario, Canada": [
+  45.352986,
+  -75.6385469
+ ],
+ "Askey Animal Hospital, Burlington, Ontario, Canada": null,
+ "Bay Cities Animal Hospital, Burlington, Ontario, Canada": [
+  43.3389216,
+  -79.7854619
+ ],
+ "Bellbrae Animal Hospital, Collingwood, Ontario, Canada": null,
+ "Bells Corners Animal Hospital, Nepean, Ontario, Canada": [
+  45.3178678,
+  -75.8407921
+ ],
+ "Blair Animal Hospital, Gloucester, Ontario, Canada": [
+  45.454805,
+  -75.5900816
+ ],
+ "Blue Cross Animal Hospital, Sarnia, Ontario, Canada": null,
+ "Burlington Animal Hospital, Burlington, Ontario, Canada": null,
+ "Burnham Mansion Animal Hospital, Peterborough, Ontario, Canada": null,
+ "Cachet Village Animal Hospital, Markham, Ontario, Canada": null,
+ "Credit Valley Animal Hospital, Mississauga, Ontario, Canada": null,
+ "Don Mills Animal Hospital, North York, Ontario, Canada": null,
+ "Eastside Animal Hospital, Stoney Creek, Ontario, Canada": null,
+ "Guelph Veterinary Surgery Services, Guelph, Ontario, Canada": null,
+ "Heritage Animal Hospital, Midland, Ontario, Canada": null,
+ "Jackson Creek Animal Hospital, Peterborough, Ontario, Canada": null,
+ "Kew Beach Animal Hospital, Toronto, Ontario, Canada": null,
+ "Kingsway Animal Hospital, Hamilton, Ontario, Canada": [
+  43.2321174,
+  -79.812211
+ ],
+ "Lakeshore Animal Hospital, Mississauga, Ontario, Canada": null,
+ "Lexington Rd. Animal Hospital, Waterloo, Ontario, Canada": null,
+ "London Regional Veterinary Emergency and Referral Hospital, London, Ontario, Canada": null,
+ "MacKay Animal Hospital, Whitby, Ontario, Canada": null,
+ "Masonville Animal Hospital, London, Ontario, Canada": null,
+ "Matthews Animal Hospital, London, Ontario, Canada": null,
+ "Mississauga Oakville Veterinary Emergency and Specialty Hospital, Oakville, Ontario, Canada": null,
+ "Morningside Animal Hospital, Scarborough, Ontario, Canada": null,
+ "Mt. Pleasant - Davisville Animal Hospital, Toronto, Ontario, Canada": null,
+ "Northdale Animal Hospital, London, Ontario, Canada": null,
+ "Northumberland Animal Hospital, Colborne, Ontario, Canada": null,
+ "Ottawa Veterinary Hospital, Ottawa, Ontario, Canada": [
+  45.3691615,
+  -75.7696077
+ ],
+ "Petrolia Veterinary Services, Petrolia, Ontario, Canada": null,
+ "Port Colborne Animal Hospital, Port Colborne, Ontario, Canada": null,
+ "Pretoria Animal Hospital, Ottawa, Ontario, Canada": [
+  45.4104018,
+  -75.6850004
+ ],
+ "Richmond Hill Animal Hospital, Richmond Hill, Ontario, Canada": null,
+ "Rosedale Animal Hospital, Toronto, Ontario, Canada": [
+  43.6837629,
+  -79.3925072
+ ],
+ "Scarborough Animal Hospital, Toronto, Ontario, Canada": null,
+ "Secord Animal Hospital, Toronto, Ontario, Canada": null,
+ "Toronto Veterinary Emergency Hospital, Scarborough, Ontario, Canada": null,
+ "Westside Animal Hospital, Toronto, Ontario, Canada": null,
+ "Willowdale Animal Hospital, Toronto, Ontario, Canada": null
+}

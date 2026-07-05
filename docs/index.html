@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who owns your vet? — Ontario</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<style>
+  :root {
+    --surface: #fcfcfb; --panel: #ffffffee; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --border: rgba(11,11,11,0.10);
+    --c-ind: #1baf7a; --c-vs: #e34948; --c-nva: #eda100; --c-vca: #4a3aa7;
+    --ring: #ffffff;
+  }
+  :root[data-theme="dark"] {
+    --surface: #1a1a19; --panel: #1a1a19ee; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --border: rgba(255,255,255,0.12);
+    --c-ind: #199e70; --c-vs: #e66767; --c-nva: #c98500; --c-vca: #9085e9;
+    --ring: #1a1a19;
+  }
+  html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  #map { height: 100%; background: var(--surface); }
+  .panel {
+    position: absolute; top: 12px; right: 12px; z-index: 1000;
+    background: var(--panel); color: var(--ink); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 16px; max-width: 300px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15); font-size: 13px;
+  }
+  .panel h1 { font-size: 15px; margin: 0 0 2px; }
+  .panel .sub { color: var(--ink-2); margin: 0 0 10px; line-height: 1.35; }
+  .legend-row { display: flex; align-items: center; gap: 8px; padding: 3px 0; cursor: pointer; user-select: none; }
+  .legend-row input { margin: 0; accent-color: var(--ink-2); }
+  .swatch { width: 13px; height: 13px; border-radius: 50%; flex: 0 0 auto; box-shadow: 0 0 0 2px var(--ring); }
+  .swatch.small { width: 9px; height: 9px; margin: 0 2px; }
+  .legend-row .count { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .note { color: var(--muted); font-size: 11.5px; margin-top: 10px; line-height: 1.4; }
+  .note a { color: inherit; }
+  .theme-btn {
+    position: absolute; bottom: 24px; right: 12px; z-index: 1000;
+    background: var(--panel); color: var(--ink); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 10px; cursor: pointer; font-size: 12px;
+  }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--panel); color: var(--ink); }
+  .popup h3 { margin: 0 0 4px; font-size: 14px; }
+  .popup .tag { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px;
+                color: #fff; margin-bottom: 6px; }
+  .popup dl { margin: 4px 0 0; }
+  .popup dt { color: var(--muted); font-size: 10.5px; text-transform: uppercase; letter-spacing: .04em; margin-top: 6px; }
+  .popup dd { margin: 1px 0 0; font-size: 12.5px; color: var(--ink-2); }
+  .popup .warn { color: var(--muted); font-style: italic; }
+  @media (max-width: 640px) { .panel { max-width: 220px; font-size: 12px; } }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class="panel">
+  <h1>Who owns your vet?</h1>
+  <p class="sub">Ontario veterinary clinics by ownership: corporate consolidators vs. (assumed) independents.</p>
+  <div id="legend"></div>
+  <p class="note">Corporate list: CBC News research (Jan 2025). Clinic locations: OpenStreetMap + Nominatim.
+     Clinics not on a corporate list are <em>assumed independent</em> until verified.
+     Faded markers = approximate (city-level) locations.</p>
+</div>
+<button class="theme-btn" id="themeBtn">◐ Theme</button>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script>
+const GROUPS = {
+  independent: { label: 'Independent (assumed)', cssVar: '--c-ind' },
+  VetStrategy: { label: 'VetStrategy → IVC Evidensia (PE)', cssVar: '--c-vs' },
+  NVA:         { label: 'NVA → JAB Holding (PE)', cssVar: '--c-nva' },
+  VCA:         { label: 'VCA → Mars Inc.', cssVar: '--c-vca' },
+};
+const groupOf = p => p.ownership === 'independent' ? 'independent' : p.owner_group;
+const cssVal = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+// theme
+const root = document.documentElement;
+const stored = localStorage.getItem('theme');
+root.dataset.theme = stored || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+const map = L.map('map', { zoomControl: true }).setView([44.6, -79.9], 6);
+let tiles;
+function setTiles() {
+  if (tiles) map.removeLayer(tiles);
+  const dark = root.dataset.theme === 'dark';
+  tiles = L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark ? 'dark_all' : 'light_all'}/{z}/{x}/{y}{r}.png`, {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    maxZoom: 19,
+  }).addTo(map);
+}
+setTiles();
+
+const state = { visible: new Set(Object.keys(GROUPS)), features: [] };
+const layer = L.layerGroup().addTo(map);
+
+function markerStyle(p) {
+  const corporate = p.ownership === 'corporate';
+  const approx = p.precision === 'city';
+  return {
+    radius: corporate ? 7 : 4.5,
+    fillColor: cssVal(GROUPS[groupOf(p)].cssVar),
+    fillOpacity: approx ? 0.45 : (corporate ? 0.9 : 0.75),
+    color: cssVal('--ring'),
+    weight: corporate ? 2 : 1.5,
+    opacity: approx ? 0.5 : 1,
+  };
+}
+
+function popupHtml(p) {
+  const g = groupOf(p);
+  const color = cssVal(GROUPS[g].cssVar);
+  const rows = [];
+  if (p.ownership === 'corporate') {
+    rows.push(['Ultimate owner', p.parent]);
+    rows.push(['Ownership status', 'Verified — on consolidator list']);
+  } else {
+    rows.push(['Ownership status', 'Assumed independent — not found on any consolidator list (unverified)']);
+  }
+  rows.push(['Source', p.source]);
+  if (p.precision === 'city') rows.push(['Location', '<span class="warn">Approximate — placed near city centre (no exact address yet)</span>']);
+  return `<div class="popup"><h3>${p.name}</h3>` +
+    `<span class="tag" style="background:${color}">${GROUPS[g].label}</span>` +
+    (p.city ? `<div style="color:var(--muted);font-size:12px">${p.city}</div>` : '') +
+    `<dl>${rows.map(([t, d]) => `<dt>${t}</dt><dd>${d}</dd>`).join('')}</dl></div>`;
+}
+
+function render() {
+  layer.clearLayers();
+  for (const f of state.features) {
+    const p = f.properties;
+    if (!state.visible.has(groupOf(p))) continue;
+    L.circleMarker([f.geometry.coordinates[1], f.geometry.coordinates[0]], markerStyle(p))
+      .bindPopup(popupHtml(p), { maxWidth: 280 })
+      .addTo(layer);
+  }
+}
+
+function buildLegend(counts) {
+  const el = document.getElementById('legend');
+  el.innerHTML = '';
+  for (const [key, g] of Object.entries(GROUPS)) {
+    const row = document.createElement('label');
+    row.className = 'legend-row';
+    row.innerHTML = `<input type="checkbox" checked>` +
+      `<span class="swatch ${key === 'independent' ? 'small' : ''}" style="background:var(${g.cssVar})"></span>` +
+      `<span>${g.label}</span><span class="count">${counts[key] || 0}</span>`;
+    row.querySelector('input').addEventListener('change', e => {
+      e.target.checked ? state.visible.add(key) : state.visible.delete(key);
+      render();
+    });
+    el.appendChild(row);
+  }
+}
+
+fetch('data/clinics.geojson').then(r => r.json()).then(gj => {
+  state.features = gj.features;
+  const counts = {};
+  for (const f of gj.features) counts[groupOf(f.properties)] = (counts[groupOf(f.properties)] || 0) + 1;
+  buildLegend(counts);
+  render();
+});
+
+document.getElementById('themeBtn').addEventListener('click', () => {
+  root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', root.dataset.theme);
+  setTiles();
+  render();
+});
+</script>
+</body>
+</html>
