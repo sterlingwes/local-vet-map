@@ -1,1 +1,4252 @@
-[]
+[
+ {
+  "registrant_id": "59c3ae700c811409d8d448b2",
+  "name": "Dr. Cassandra Leanne Vlahaki",
+  "practices": [
+   {
+    "id": "651ae7224d904e7f07a1f730",
+    "name": "Juno Veterinary",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "67a279338657521878271b36",
+    "name": "Juno Veterinary",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "687fb519539d5004119e48cd",
+    "name": "Juno Veterinary",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "660ad96e539d50f554744719",
+    "name": "Juno Veterinary",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "66e9d00116e8dde1d6482ce8",
+    "name": "Juno Veterinary",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "62ce04aa4d904eeb7c924e6d",
+    "name": "Juno Veterinary",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "64132e79d096cf210d7496ed",
+    "name": "Juno Veterinary",
+    "city": "East York",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00046a",
+  "name": "Dr. Matthew David Wittenrich",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ca6",
+    "name": "Beattie Pet Hospital",
+    "city": "Stoney Creek",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5f0a133d355c463862465b2b",
+    "name": "Beattie Pet Hospital - East Hamilton",
+    "city": "Hamilton",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e68",
+    "name": "Beattie Pet Hospital of Burlington",
+    "city": "Burlington",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0021f9",
+    "name": "Beattie Pet Hospital of Hamilton",
+    "city": "Ancaster",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00203e",
+    "name": "St Catharines Animal Hospital",
+    "city": "St. Catharines",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d9d",
+    "name": "Weston Veterinary Clinic",
+    "city": "Weston",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00108d",
+  "name": "Dr. Vanessa Burghart",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0021fa",
+    "name": "Cachet Village Animal Hospital",
+    "city": "Markham",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002009",
+    "name": "VCA Credit Valley Pet Vet Hospital",
+    "city": "Mississauga",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002119",
+    "name": "VCA Don Mills Animal Hospital",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002008",
+    "name": "VCA Lakeshore Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f40",
+    "name": "VCA Lawrence Veterinary Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002273",
+    "name": "VCA Willowdale Animal Hospital",
+    "city": "Willowdale",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0001e6",
+  "name": "Dr. Earl Alec Martin",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f36",
+    "name": "Blue Cross Animal Hospital",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "630cf2a7d096cf984eff6f90",
+    "name": "Neighbourhood Pet Clinic 0003",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c77",
+    "name": "Neighbourhood Pet Clinic of North London",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "6355d490539d5054f49bba37",
+    "name": "Southwest Veterinary Hospital",
+    "city": "London",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002133",
+    "name": "Westmount Neighbourhood Pet Clinic",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001049",
+  "name": "Dr. Eva Kho-Yan Chung",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001eff",
+    "name": "VCA Birchmount Veterinary Clinic",
+    "city": "Scarborough",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0023c5",
+    "name": "VCA Mount Pleasant-Davisville Veterinary Hospital",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00211d",
+    "name": "VCA Scarborough Animal Hospital",
+    "city": "Scarborough",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002134",
+    "name": "VCA Secord Animal Hospital",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d69",
+    "name": "VCA Westside Animal Hospital",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000c61",
+  "name": "Dr. Aron Satish Bhan",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c93",
+    "name": "Balfour Animal Hospital",
+    "city": "Fenwick",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001ffa",
+    "name": "Brant Animal Clinic",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fd3",
+    "name": "Britannia Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d63",
+    "name": "Main West Animal Hospital",
+    "city": "Welland",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00017c",
+  "name": "Dr. Caitlin Ashley Goldhawk",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c37",
+    "name": "Blenheim Veterinary Hospital",
+    "city": "Blenheim",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f1b",
+    "name": "Chatham-Kent Veterinary Hospital",
+    "city": "Chatham",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002164",
+    "name": "South Ridge Veterinary Clinic",
+    "city": "Ridgetown",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002296",
+    "name": "Wallaceburg Animal Hospital",
+    "city": "Wallaceburg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "625217e7d096cf01202a1943",
+  "name": "Dr. Christopher Todd Worrell",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020e4",
+    "name": "Gagemount Animal Hospital",
+    "city": "Hamilton",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001de3",
+    "name": "Lynden Animal Clinic",
+    "city": "Lynden",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e17",
+    "name": "Thomas-Glen Erin Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e03",
+    "name": "Wellington Veterinary Services",
+    "city": "Elora",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5c9acab96f9859057b1b9edf",
+  "name": "Dr. Joey Tang",
+  "practices": [
+   {
+    "id": "5c5230ba5420263344bb034c",
+    "name": "Ontario SPCA and Humane Society Greater Sudbury Veterinary Clinic",
+    "city": "Sudbury",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5b354e24e610d8be0d73f190",
+    "name": "Ontario SPCA and Humane Society North West Veterinary Clinic",
+    "city": "Thunder Bay",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00221a",
+    "name": "Ontario SPCA and Humane Society York Region Veterinary Clinic",
+    "city": "Stouffville",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "63e646ae539d5002d2efdbe5",
+    "name": "Ontario SPCA Veterinary Outreach Services",
+    "city": "Stouffville",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0008a2",
+  "name": "Dr. Kevin Bruce McIntosh",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ec9",
+    "name": "Algonquin Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002080",
+    "name": "Liston Animal Hospital",
+    "city": "Kanata",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002275",
+    "name": "Prince Of Wales Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0011c6",
+  "name": "Dr. Inderpal Singh Kahlon",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00225a",
+    "name": "Amherst Veterinary Hospital",
+    "city": "Scarborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5ade015fe610d83997938292",
+    "name": "Bellamy-Lawrence Animal Hospital",
+    "city": "Scarborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0022b1",
+    "name": "Brimley-Lawrence Animal Clinic",
+    "city": "Scarborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000598",
+  "name": "Dr. Hans Christoffersen",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d14",
+    "name": "Animal Care Clinic",
+    "city": "Brampton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020cb",
+    "name": "Hamilton Region Emergency Veterinary Clinic",
+    "city": "Hamilton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fd7",
+    "name": "Lakeview Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000346",
+  "name": "Dr. John Brajkovich",
+  "practices": [
+   {
+    "id": "5dfd404e54202640e4bb91ac",
+    "name": "Animals In Motion Rehabilitation Services Wellington County",
+    "city": "Erin",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e81",
+    "name": "Caledon Mountain Veterinary Hospital",
+    "city": "Caledon Village",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "64e45d124d904ef9a4a5f061",
+    "name": "Erin Trailside Veterinary Services",
+    "city": "Erin",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0003ff",
+  "name": "Dr. Tahir Mahboob",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020f7",
+    "name": "Blue Cross Animal Hospital",
+    "city": "Kitchener",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c2c",
+    "name": "Huron East Animal Hospital",
+    "city": "Kitchener",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e5a",
+    "name": "Waterloo West Animal Hospital",
+    "city": "Waterloo",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0004f8",
+  "name": "Dr. Johnathan Charles McTaggart",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020f5",
+    "name": "Borderview Veterinary Hospital",
+    "city": "Fort Erie",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020b9",
+    "name": "Niagara Veterinary Emergency Clinic",
+    "city": "Thorold",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020fa",
+    "name": "Pelham Animal Hospital",
+    "city": "Fonthill",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0011b0",
+  "name": "Dr. Marco Mazzocco",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020c9",
+    "name": "Campus Estates Animal Hospital",
+    "city": "Guelph",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002243",
+    "name": "Guelph Veterinary Specialty Hospital",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020c5",
+    "name": "Royal City Animal Hospital",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0005e6",
+  "name": "Dr. Haerishton Rubim Cavalcante Lima",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001dc1",
+    "name": "Carleton Veterinary Services",
+    "city": "North Gower",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001de9",
+    "name": "Lanark Veterinary Clinic",
+    "city": "Smiths Falls",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "600b2d8f355c4667efc45618",
+    "name": "McNeely Animal Hospital",
+    "city": "Carleton Place",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000293",
+  "name": "Dr. Kristopher Paul Chandroo",
+  "practices": [
+   {
+    "id": "5a6e257633579aa2cdab0e02",
+    "name": "Chandroo Veterinary House Call Services",
+    "city": "Kanata",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "62c73a8d4d904eeb7c88588d",
+    "name": "Chandroo Veterinary House Call Services - Hamilton",
+    "city": "Hamilton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "61f416b64d904eb58db094d7",
+    "name": "Chandroo Veterinary House Call Services - London",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000ab3",
+  "name": "Dr. Angela Maria Gerretsen",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002113",
+    "name": "Coventry Animal Hospital",
+    "city": "Stratford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002121",
+    "name": "Mitchell Veterinary Services",
+    "city": "Mitchell",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d04",
+    "name": "Pauly Veterinary Clinic",
+    "city": "Milverton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001233",
+  "name": "Dr. Brendon Laing",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ecf",
+    "name": "Dean Veterinary Hospital",
+    "city": "Kleinburg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "677c0f3e16e8dd4f85c44ac9",
+    "name": "Novel",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002442",
+    "name": "Town and Country Animal Hospital",
+    "city": "Stouffville",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "628d20a94d904eeb7c05aa58",
+  "name": "Dr. Ranbir Padwal",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00200a",
+    "name": "Dixie Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cec",
+    "name": "O'Connor Veterinary Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f97",
+    "name": "South Etobicoke Animal Hospital",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000a52",
+  "name": "Dr. Martha Jane Harding",
+  "practices": [
+   {
+    "id": "60ef1a164d904e8e0360996d",
+    "name": "East Village Animal Hospital - Hamilton",
+    "city": "Hamilton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c7c",
+    "name": "East Village Animal Hospital - Kitchener",
+    "city": "Kitchener",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c75",
+    "name": "East Village Animal Hospital - London",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000480",
+  "name": "Dr. Ahmad Badri",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c49",
+    "name": "Gerrard Mobile Veterinary Services",
+    "city": "Scarborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001db8",
+    "name": "Midland Eglinton Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0023c0",
+    "name": "Toronto Central Animal Clinic",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000a42",
+  "name": "Dr. Hardish Singh Momi",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0021df",
+    "name": "Harbour Ridge Animal Hospital",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e24",
+    "name": "Prince Charles Animal Hospital",
+    "city": "Welland",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "60f056e9539d508524cd8095",
+    "name": "Riverside Animal Hospital",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000939",
+  "name": "Dr. Kimberly Ann Watson-McKenzie",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e82",
+    "name": "Heartland Animal Hospital of Listowel",
+    "city": "Listowel",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e1b",
+    "name": "Heartland Animal Hospital of Mount Forest",
+    "city": "Mount Forest",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f08",
+    "name": "Heartland Veterinary Services",
+    "city": "Listowel",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "596e74f04380c3326c1bcd6f",
+  "name": "Dr. Katherine Bottoms Ritz",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002171",
+    "name": "Hickson Veterinary Services",
+    "city": "Hickson",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d8c",
+    "name": "Tavistock Veterinarians",
+    "city": "Tavistock",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5e14b06454202640e42f592d",
+    "name": "Tavistock Veterinarians of Woodstock",
+    "city": "Woodstock",
+    "position": "Director",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000775",
+  "name": "Dr. Annika Irista Rear",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00210d",
+    "name": "Huron Shores Veterinary Services",
+    "city": "Port Elgin",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0021cf",
+    "name": "Lucknow-Huron Veterinary Services",
+    "city": "Lucknow",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00212c",
+    "name": "Ripley-Huron Veterinary Clinic",
+    "city": "Ripley",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000a1f",
+  "name": "Dr. Ryan Manuel Llera",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d70",
+    "name": "Kingston Napanee Spay Neuter Clinic",
+    "city": "Kingston",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cf1",
+    "name": "Kingston Veterinary Clinic",
+    "city": "Kingston",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002081",
+    "name": "Limestone City Animal Hospital",
+    "city": "Kingston",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00055e",
+  "name": "Dr. Michael Paul Pownall",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001cdc",
+    "name": "McKee-Pownall Equine Services",
+    "city": "Campbellville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "588a41a8336166165d00224d",
+    "name": "McKee-Pownall Equine Services - Caledon",
+    "city": "Schomberg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "588a41a8336166165d001d4d",
+    "name": "McKee-Pownall Equine Services - Uxbridge",
+    "city": "Uxbridge",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0005b5",
+  "name": "Dr. Sharon Anne Quinn",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ca0",
+    "name": "Nelson Animal Hospital",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5c6b531b6f985920e70fbecd",
+    "name": "Ontario Veterinary Telemedicine Services",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "636e635a539d5054f4fe8dba",
+    "name": "VetWell Waterdown Animal Hospital",
+    "city": "Waterdown",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000c0c",
+  "name": "Dr. Jeffrey Jay Wichtel",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c15",
+    "name": "OVC Companion Animal Hospital",
+    "city": "Guelph",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c14",
+    "name": "OVC Large Animal Hospital",
+    "city": "Guelph",
+    "position": "Director",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "588a41a8336166165d001ddb",
+    "name": "OVC Smith Lane Animal Hospital",
+    "city": "Guelph",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0003e5",
+  "name": "Dr. Esther Rose Attard",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e43",
+    "name": "Toronto Animal Services East Spay-Neuter Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fd4",
+    "name": "Toronto Animal Services North Spay-Neuter Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001db2",
+    "name": "Toronto Animal Services S.N.Y.P Mobile Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000108",
+  "name": "Dr. Fareed Ahmad",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f6f",
+    "name": "16th Avenue Animal Hospital",
+    "city": "Markham",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e40",
+    "name": "Harwood Pet Hospital",
+    "city": "Ajax",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0001d2",
+  "name": "Dr. Keith Laverne Good",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e41",
+    "name": "Algoma Veterinary Clinic",
+    "city": "Desbarats",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00206a",
+    "name": "Algoma Veterinary Clinic - Blind River Office",
+    "city": "Blind River",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "596e74f04380c3326c1bcda0",
+  "name": "Dr. Dayna Dionne Paine",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002268",
+    "name": "Amherstview Pet Hospital",
+    "city": "Amherstview",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001bf4",
+    "name": "Cataraqui Pet Hospital",
+    "city": "Kingston",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000fc2",
+  "name": "Dr. Jennifer Anne Richards",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e64",
+    "name": "Animal Hospital of Beeton",
+    "city": "Beeton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0021f7",
+    "name": "Tillsonburg Veterinary Centre",
+    "city": "Tillsonburg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5abba89c673020db2400f3b3",
+  "name": "Dr. Alim Nazarali",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020a2",
+    "name": "Animal Hospital of Cambridge",
+    "city": "Cambridge",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002167",
+    "name": "Simcoe Animal Hospital",
+    "city": "Simcoe",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0009bb",
+  "name": "Dr. Hafiz Imtiaz Hussain",
+  "practices": [
+   {
+    "id": "61f4183b4d904eb58db096ed",
+    "name": "Animal Hospital of Windsor",
+    "city": "Windsor",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e21",
+    "name": "Erie Veterinary Hospital",
+    "city": "Leamington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00089e",
+  "name": "Dr. Karen Teresa Catt",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0022bf",
+    "name": "Animal Hospital on Hwy 11B",
+    "city": "New Liskeard",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f55",
+    "name": "Kirkland Lake Veterinary Clinic",
+    "city": "Kirkland Lake",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000c51",
+  "name": "Dr. Maegan Brianne Melillo",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002138",
+    "name": "Apsley Veterinary Services",
+    "city": "Apsley",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d9f",
+    "name": "Heritage Veterinary Hospital",
+    "city": "Kitchener",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00017f",
+  "name": "Dr. Ehab Sobhy Barbary Hanna",
+  "practices": [
+   {
+    "id": "5d111e186f985913495c9da1",
+    "name": "Arc Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002051",
+    "name": "Collegeway Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000a82",
+  "name": "Dr. Ardis Anne Ardiel",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00211c",
+    "name": "Ardiel Animal Hospital",
+    "city": "Meaford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001ee2",
+    "name": "Balsam Veterinary Office",
+    "city": "Collingwood",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000cc3",
+  "name": "Dr. Jia Kasimova Asianova",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00219b",
+    "name": "Asianova, Dr. Veterinary Mobile Services",
+    "city": "Maple",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002059",
+    "name": "Dr. Asianova Animal Clinic",
+    "city": "Vaughan",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000c02",
+  "name": "Dr. Gustavo G. Stringel",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0022bc",
+    "name": "Athens Veterinary Services",
+    "city": "Athens",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e02",
+    "name": "Merrickville Veterinary Services",
+    "city": "Merrickville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000460",
+  "name": "Dr. Sandi Eleanore Rosely",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001eae",
+    "name": "Avonlea Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c68",
+    "name": "Hollybank Animal Hospital",
+    "city": "Milton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0002d6",
+  "name": "Dr. Daniel Joseph Baturensky",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f1f",
+    "name": "Baldwin Animal Hospital",
+    "city": "Whitby",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002255",
+    "name": "South Whitby Veterinary Services",
+    "city": "Whitby",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0009cd",
+  "name": "Dr. Katrin Schmidt",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0021be",
+    "name": "Barrie Animal Hospital",
+    "city": "Barrie",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001da9",
+    "name": "Campbellville Animal Hospital",
+    "city": "Campbellville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0000b2",
+  "name": "Dr. Timothy Paul Blatt",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001fda",
+    "name": "Baxter Animal Hospital",
+    "city": "Sudbury",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001ccc",
+    "name": "Cambrian Animal Hospital",
+    "city": "Sudbury",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0010fb",
+  "name": "Dr. Susan Rebecca Craig",
+  "practices": [
+   {
+    "id": "672e338816e8ddbc3cd3c98b",
+    "name": "BayVETS Urgent Care",
+    "city": "Collingwood",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "60e30b4d539d508524b1c7dc",
+    "name": "Long Beach Veterinary Hospital",
+    "city": "Wasaga Beach",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000b20",
+  "name": "Dr. Howard Arnold Covant",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002260",
+    "name": "Bayview/Seven Animal Hospital",
+    "city": "Richmond Hill",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "645be1284d904e0123f6331c",
+    "name": "Dr. H. Covant Mobile Veterinary Services",
+    "city": "Richmond Hill",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0010d2",
+  "name": "Dr. Dana Lynn Dolinsek",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00217b",
+    "name": "Baywood Animal Hospital",
+    "city": "Midhurst",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0023dc",
+    "name": "Thicketwood Veterinary Hospital",
+    "city": "Stouffville",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000851",
+  "name": "Dr. Laura Ann Hagar",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020ba",
+    "name": "Beamsville Animal Hospital",
+    "city": "Beamsville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f41",
+    "name": "Smithville Animal Hospital",
+    "city": "Smithville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000729",
+  "name": "Dr. Rajiv Bhatia",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002144",
+    "name": "Beaver Creek Animal Hospital",
+    "city": "St. Thomas",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c18",
+    "name": "Belmont Veterinary Services",
+    "city": "Belmont",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5aec6146673020a003d9ba1b",
+  "name": "Dr. Brett Anthony Nightingale",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c98",
+    "name": "Beechwood Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5ee24ee73b69483ed150b50e",
+    "name": "Beechwood Veterinary Services",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0003f8",
+  "name": "Dr. Bhan Chand Garg",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d57",
+    "name": "Belle River Animal Clinic",
+    "city": "Belle River",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d56",
+    "name": "Leamington Veterinary Clinic",
+    "city": "Leamington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0011da",
+  "name": "Dr. Delaney Brook Della Fortuna",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001cb8",
+    "name": "Binbrook Animal Hospital",
+    "city": "Binbrook",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020c1",
+    "name": "Rockland Veterinary Hospital",
+    "city": "Hamilton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "60a3e112d096cf82f522197f",
+  "name": "Dr. Omotayo Lawal Conteh",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e06",
+    "name": "Birch-Dan Animal Hospital",
+    "city": "Scarborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e27",
+    "name": "Ellesmere Animal Clinic",
+    "city": "Scarborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000680",
+  "name": "Dr. Sasha Nicole Kotzeff",
+  "practices": [
+   {
+    "id": "66991d8c865752428dd1b3bf",
+    "name": "Bluewater Veterinary Emergency Clinic",
+    "city": "Owen Sound",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00210c",
+    "name": "North Heritage Animal Hospital",
+    "city": "Owen Sound",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000ad0",
+  "name": "Dr. Deborah Ann Boyd",
+  "practices": [
+   {
+    "id": "5abbf75be95b611eab091f51",
+    "name": "Boyd's Mobile Alternative Veterinary Services",
+    "city": "Owen Sound",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cc1",
+    "name": "Grey-Bruce Pet Hospital",
+    "city": "Owen Sound",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00052b",
+  "name": "Dr. Michael Steven Corradini",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f61",
+    "name": "Bradford Animal Clinic",
+    "city": "Bradford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002183",
+    "name": "Tottenham Animal Clinic",
+    "city": "Tottenham",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000cd5",
+  "name": "Dr. Jennifer Susan Farr",
+  "practices": [
+   {
+    "id": "5dcefe626f9859150a43819f",
+    "name": "Brant-County SPCA Companion Animal Mobile",
+    "city": "Brantford",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f5f",
+    "name": "Hamilton/Burlington SPCA Companion Animal Hospital",
+    "city": "Hamilton",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00099a",
+  "name": "Dr. Grant Edward Scherer",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e16",
+    "name": "Brant-Norfolk Veterinary Clinic",
+    "city": "Brantford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002223",
+    "name": "St. George Mill Animal Hospital",
+    "city": "St. George",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000843",
+  "name": "Dr. Rajesh Bidlon",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d79",
+    "name": "Branton Animal Hospital",
+    "city": "Windsor",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d2b",
+    "name": "Town and Country Animal Clinic",
+    "city": "Windsor",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000afe",
+  "name": "Dr. Sophia Velianou",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002100",
+    "name": "Briarwood Animal Hospital",
+    "city": "Stoney Creek",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cc4",
+    "name": "Grimsby Animal Hospital",
+    "city": "Grimsby",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0011d7",
+  "name": "Dr. Harinder Pal Singh Saini",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020c7",
+    "name": "Bridgeview Animal Hospital",
+    "city": "Niagara Falls",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c19",
+    "name": "McLeod Road Animal Clinic",
+    "city": "Niagara Falls",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000535",
+  "name": "Dr. Anitha Gude",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00219a",
+    "name": "Bristol Veterinary Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "6622beae4d904eba7fe0af7a",
+    "name": "Stanfield Veterinary Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000210",
+  "name": "Dr. Tina Lynn McGrath",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d46",
+    "name": "Bronte Village Animal Hospital",
+    "city": "Oakville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e42",
+    "name": "Windrush Veterinary Services",
+    "city": "Brantford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000bac",
+  "name": "Dr. Zakaria Sadek Saleh",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0021ee",
+    "name": "Brooker Ridge Animal Hospital",
+    "city": "Newmarket",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002018",
+    "name": "Richmond Veterinary House Call Services",
+    "city": "Richmond Hill",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00001d",
+  "name": "Dr. Muhammad Chishti",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002269",
+    "name": "Brookfield Veterinary Hospital",
+    "city": "Brampton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0021e9",
+    "name": "Eglinton-Mavis Veterinary Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000ff5",
+  "name": "Dr. Margaret Ann Himann",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ed9",
+    "name": "Buckhorn Veterinary Services",
+    "city": "Gooderham",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "6475e958539d508df3bdbf06",
+    "name": "Peterborough Veterinary Outreach",
+    "city": "Peterborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000c1b",
+  "name": "Dr. Gopal Arora",
+  "practices": [
+   {
+    "id": "5ae3057ae95b61784d7e2e23",
+    "name": "Burford Veterinary Hospital",
+    "city": "Burford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00216b",
+    "name": "Colborne Veterinary Clinic",
+    "city": "Simcoe",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00011e",
+  "name": "Dr. Cornelia Ann Dahl",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002170",
+    "name": "Byron Animal Clinic",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c33",
+    "name": "Dahl Mobile Veterinary Services",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000bf0",
+  "name": "Dr. Neil Verden Lawrence",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001fdf",
+    "name": "Callander Animal Hospital",
+    "city": "Callander",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "6635a12c539d50b505bb96e6",
+    "name": "Callander Animal Wellness Centre",
+    "city": "Corbeil",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000525",
+  "name": "Dr. Ellen Franziska Kinzl",
+  "practices": [
+   {
+    "id": "61a7c4f6d096cf084513598f",
+    "name": "Canary District Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d3b",
+    "name": "Liberty Village Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0005c7",
+  "name": "Dr. Rachel Anne Shanahan",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e0d",
+    "name": "Cannington Veterinary Services",
+    "city": "Cannington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "588a41a8336166165d002147",
+    "name": "Port Perry Veterinary Services",
+    "city": "Prince Albert",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0006ba",
+  "name": "Dr. Kendra Cheryl Long",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0022d5",
+    "name": "Cat Hospital of Brampton",
+    "city": "Brampton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c16",
+    "name": "Dog Hospital of Brampton",
+    "city": "Brampton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000117",
+  "name": "Dr. Jagdish Rai Verma",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002001",
+    "name": "Cawthorpe Veterinary Services",
+    "city": "Mississauga",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002197",
+    "name": "Malton Veterinary Services",
+    "city": "Mississauga",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5e55dffa6f98592369e4c795",
+  "name": "Dr. Erin Marie O'Shaughnessy",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d98",
+    "name": "Centennial Animal Hospital",
+    "city": "Bracebridge",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f96",
+    "name": "Gravenhurst Veterinary Services",
+    "city": "Gravenhurst",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000e55",
+  "name": "Dr. Jamie Lauren Druck",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0022b0",
+    "name": "Central Toronto Veterinary Emergency Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c0d",
+    "name": "Central Toronto Veterinary Referral Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000bf5",
+  "name": "Dr. Kenneth Rodney Metzger",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c8a",
+    "name": "Chesley Veterinary Services",
+    "city": "Chesley",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "588a41a8336166165d0020a8",
+    "name": "Metzger Veterinary Services",
+    "city": "Linwood",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000941",
+  "name": "Dr. Daniel Christopher John Caudle",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0021c0",
+    "name": "College Manor Veterinary Hospital",
+    "city": "Newmarket",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0021ff",
+    "name": "Princess Animal Hospital",
+    "city": "Kingston",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000994",
+  "name": "Dr. Jacqueline Pankatz",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d05",
+    "name": "Collingwood Veterinary Services",
+    "city": "Collingwood",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002148",
+    "name": "Mountain Vista Veterinary Hospital",
+    "city": "Collingwood",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000992",
+  "name": "Dr. Angela Jennifer Smith",
+  "practices": [
+   {
+    "id": "5b895430e95b61014424a0c2",
+    "name": "Community Veterinary Outreach Mobile Services - York Region",
+    "city": "Mount Albert",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e8e",
+    "name": "East Gwillimbury Veterinary Hospital",
+    "city": "Mount Albert",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "608fe4dbd096cf82f5f5c2dc",
+  "name": "Dr. Michael George Zaki Saadalla",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002093",
+    "name": "Cornwall Veterinary Services",
+    "city": "Cornwall",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020d7",
+    "name": "Lancaster Veterinary Clinic",
+    "city": "Lancaster",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0008ea",
+  "name": "Dr. Madeleine Teresa Bryant Cosentino",
+  "practices": [
+   {
+    "id": "61293082d096cfd1d6a1e7ed",
+    "name": "Cosentino Mobile Pet Services",
+    "city": "Stayner",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00217a",
+    "name": "Elmvale Veterinary Hospital",
+    "city": "Elmvale",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001136",
+  "name": "Dr. Amanda Kimberly Cushing",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ea1",
+    "name": "Cushing Veterinary Mobile Services",
+    "city": "Oshawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e6c",
+    "name": "Grandview Bloor Animal Clinic",
+    "city": "Oshawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0006fc",
+  "name": "Dr. Michael Kevin McNeil",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001dc5",
+    "name": "Dalton Road Veterinary Clinic",
+    "city": "Jacksons Point",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001dc6",
+    "name": "Keswick Veterinary Clinic",
+    "city": "Keswick",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000b31",
+  "name": "Dr. Subrata Datta",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c64",
+    "name": "Datta Veterinary Hospital",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cf0",
+    "name": "London Mobile Veterinary Services",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0001ae",
+  "name": "Dr. Sherri Frances Dennett",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002082",
+    "name": "Dennett Veterinary Mobile",
+    "city": "Manotick",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00207e",
+    "name": "Riverside South Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000e5d",
+  "name": "Dr. Arif Saleem Memon",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0022ae",
+    "name": "Dixie-Eglinton Animal Clinic",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d53",
+    "name": "Lorne Park Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000e9c",
+  "name": "Dr. Jason Mark Donohoe",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002040",
+    "name": "Donohoe Mobile Veterinary Service",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002242",
+    "name": "Veterinary Emergency Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0002a7",
+  "name": "Dr. Surinder Singh Khahra",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ca4",
+    "name": "Dougall Avenue Veterinary Hospital",
+    "city": "Windsor",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001ca3",
+    "name": "Huron Church Animal Hospital",
+    "city": "Windsor",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00058a",
+  "name": "Dr. Brenda Rheta Jones",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002166",
+    "name": "Dover Animal Hospital",
+    "city": "Port Dover",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c8c",
+    "name": "Port Rowan Veterinary Services",
+    "city": "Port Rowan",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001a19",
+  "name": "Dr. Arya Aryamanesh",
+  "practices": [
+   {
+    "id": "6330e77e4d904e65363857b4",
+    "name": "Dr. Arya Veterinary Mobile Clinic",
+    "city": "Georgetown",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "65f08f134d904e183b4f0772",
+    "name": "Norval Animal Hospital",
+    "city": "Norval",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "621c4f09d096cf0120849e23",
+  "name": "Dr. Gerges Ibrahim Aziz Fahmy",
+  "practices": [
+   {
+    "id": "6625ce5c4d904eba7fe648be",
+    "name": "Dr. Fahmy Veterinary Mobile Clinic",
+    "city": "Barrie",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "67fd154916e8dd7c0a06a96b",
+    "name": "Happy Tails Veterinary Hospital",
+    "city": "Barrie",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5c425c465420263344b80d99",
+  "name": "Dr. Amin Nozari",
+  "practices": [
+   {
+    "id": "634319824d904e653664face",
+    "name": "Dr. Vetamin Mobile Practice",
+    "city": "Ottawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "65d75814d096cf5aa2fdfa55",
+    "name": "Dr. Vetamin Specialty & Emergency Veterinary Hospital",
+    "city": "Ottawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00108b",
+  "name": "Dr. Christine Elizabeth Harron",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002200",
+    "name": "Dufferin Veterinary Hospital",
+    "city": "Orangeville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002128",
+    "name": "High County Veterinary Hospital",
+    "city": "Shelburne",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000f02",
+  "name": "Dr. Paramvir Singh Saini",
+  "practices": [
+   {
+    "id": "655cd88c4d904e2094820044",
+    "name": "Dutton Drive Animal Hospital",
+    "city": "Waterloo",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002038",
+    "name": "Junction West Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000e9b",
+  "name": "Dr. Devendra Singh Godara",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f2e",
+    "name": "East Mountain Animal Hospital",
+    "city": "Hamilton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5a70f77a0c8114f012316379",
+    "name": "Hamilton Veterinary Services",
+    "city": "Hamilton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0007b5",
+  "name": "Dr. Umar Farooq",
+  "practices": [
+   {
+    "id": "5e53f0fa6f98592369e343ea",
+    "name": "East Side Veterinary Services",
+    "city": "Kingston",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c63",
+    "name": "Gardiners Road Animal Hospital",
+    "city": "Kingston",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5ae15a26673020a003d804cc",
+  "name": "Dr. Ali Aliabadi",
+  "practices": [
+   {
+    "id": "65bafb834d904e266ba1168b",
+    "name": "East York Animal Clinic",
+    "city": "East York",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5bd9df276f9859347c6b505e",
+    "name": "York Region Pawsitive Mobile Vet",
+    "city": "Thornhill",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00058f",
+  "name": "Dr. Davinder Singh Jassal",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001fd2",
+    "name": "Eglinton-Hwy 10 Veterinary Clinic",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "62b0d0a54d904eeb7c5257fe",
+    "name": "Toronto Veterinary Clinic",
+    "city": "Etobicoke",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00057f",
+  "name": "Dr. Kirsten Ann Anderson",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d97",
+    "name": "Emergency Veterinary Clinic of Waterloo Region",
+    "city": "Cambridge",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00201c",
+    "name": "Mapleton Mobile Veterinary Services",
+    "city": "Alma",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000a47",
+  "name": "Dr. Justin Benjamin Levy",
+  "practices": [
+   {
+    "id": "679507472d854e30e8b5f373",
+    "name": "Emergency Veterinary Hospital Collingwood",
+    "city": "Collingwood",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d95",
+    "name": "Thornbury Veterinary Hospital",
+    "city": "Thornbury",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00122d",
+  "name": "Dr. Albert Jacob Adrian Wimmers",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001dff",
+    "name": "Englehart Animal Hospital",
+    "city": "Englehart",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002290",
+    "name": "Tansley Woods Veterinary Hospital",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000f62",
+  "name": "Dr. Saeed Habib Fanoos Soliman",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001ce1",
+    "name": "Erin Folk Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "65bbcee4539d5011d9c6f42b",
+    "name": "The Way Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "596e74f04380c3326c1bcd72",
+  "name": "Dr. Carley Stewardson",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d84",
+    "name": "Forest Veterinary Clinic",
+    "city": "Forest",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "662f8a09d096cf4e433fe0f4",
+    "name": "Northern Oak Animal Hospital",
+    "city": "Sarnia",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0003b4",
+  "name": "Dr. Laura Sheryl Frost",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001df6",
+    "name": "Frost Veterinary Services",
+    "city": "Puslinch",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001df5",
+    "name": "Halton Equine Veterinary Services",
+    "city": "Puslinch",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0005cd",
+  "name": "Dr. Muhammad Sajid Afzal",
+  "practices": [
+   {
+    "id": "5c76ba505420263d230d7488",
+    "name": "Gardenbrooke Veterinary Hospital",
+    "city": "Brampton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fd0",
+    "name": "North Park Veterinary Hospital",
+    "city": "Brampton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000eba",
+  "name": "Dr. Bhupinder Singh Yogi",
+  "practices": [
+   {
+    "id": "6807eb312d854eee13bdf8c6",
+    "name": "Georgian Bluff Animal Clinic",
+    "city": "Owen Sound",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "694afe783b677a97e5a4fb96",
+    "name": "Kabir Mobile Veterinary Services",
+    "city": "Brampton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000c7b",
+  "name": "Dr. Lawrence Andrew Woodley",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002199",
+    "name": "Georgina Veterinary Clinic",
+    "city": "Sutton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5ae9e364673020a003d9a45e",
+    "name": "Shades of Hope Wildlife Clinic",
+    "city": "Pefferlaw",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000929",
+  "name": "Dr. Kate Hoskins",
+  "practices": [
+   {
+    "id": "65526fbc539d5009b01453d0",
+    "name": "Glasstown Veterinary Office",
+    "city": "Wallaceburg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5c8676885420262b4e7b89b6",
+    "name": "St. Clair Animal Hospital",
+    "city": "Corunna",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000f0e",
+  "name": "Dr. Jennifer Jane Thompson",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002004",
+    "name": "Glen Erin Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fe8",
+    "name": "Meadowvale Animal Clinic",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000eb4",
+  "name": "Dr. Sherri Lynne Cox",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001fbe",
+    "name": "Glendale Veterinary Hospital",
+    "city": "Caledon",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002193",
+    "name": "National Wildlife Centre",
+    "city": "Caledon",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000917",
+  "name": "Dr. Darryl Larry Smith",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002094",
+    "name": "Glengarry Animal Hospital",
+    "city": "Alexandria",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d07",
+    "name": "Vankleek Hill Veterinary Services",
+    "city": "Vankleek Hill",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000588",
+  "name": "Dr. John Ralph Jr. Earle",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002153",
+    "name": "Grand Bend Veterinary Services",
+    "city": "Grand Bend",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002078",
+    "name": "South Huron Veterinary Clinic",
+    "city": "Zurich",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000db2",
+  "name": "Dr. Jennifer Lee-Anne Gander",
+  "practices": [
+   {
+    "id": "597f7ad503bf9044243606b8",
+    "name": "Gray Street Veterinary Services",
+    "city": "Espanola",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fe7",
+    "name": "Walden Animal Hospital",
+    "city": "Lively",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000d97",
+  "name": "Dr. Mikiko Anne Shibata",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020e1",
+    "name": "Greenbank Animal Hospital",
+    "city": "Nepean",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d23",
+    "name": "Village of Manotick Animal Hospital",
+    "city": "Manotick",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5aba52e0e610d8510c9d1fa4",
+  "name": "Dr. Justine Luiza Antunes",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002087",
+    "name": "Greenboro Veterinary Clinic",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001db9",
+    "name": "Greenboro West Veterinary Clinic",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000e20",
+  "name": "Dr. Mena Melek",
+  "practices": [
+   {
+    "id": "630fbfca539d50aa02771f05",
+    "name": "GTA Mobile Veterinary Services",
+    "city": "East Gwillimbury",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fa2",
+    "name": "Schomberg Veterinary Services",
+    "city": "Schomberg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00037d",
+  "name": "Dr. Robert Berger",
+  "practices": [
+   {
+    "id": "61d89e58539d501be3fd8bb4",
+    "name": "Guardian Mobile Vet",
+    "city": "Millbrook",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00202e",
+    "name": "Millbrook Valley Animal Hospital",
+    "city": "Millbrook",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0006f1",
+  "name": "Dr. Scott Adam Gardiner",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0021e5",
+    "name": "Guelph Lake Veterinary Hospital",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020d5",
+    "name": "Woodlawn Veterinary Hospital",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000736",
+  "name": "Dr. Joginder Singh Panesar",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f5b",
+    "name": "Guelph Vet House Calls",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f5a",
+    "name": "Stonegate Animal Hospital",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0011e4",
+  "name": "Dr. Robyn Katherine Thompson",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001de4",
+    "name": "Hanover Veterinary Hospital",
+    "city": "Hanover",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00211a",
+    "name": "Walkerton-Hanover Veterinary Clinic",
+    "city": "Walkerton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000634",
+  "name": "Dr. Varinder Vijay Pal Singh Dhaliwal",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0021b3",
+    "name": "Hastings Veterinary Hospital",
+    "city": "Stirling",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c4d",
+    "name": "Whitby Animal Hospital",
+    "city": "Whitby",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000a30",
+  "name": "Dr. Mohinder Pal Bangar",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00200f",
+    "name": "Hofmann Veterinary Clinic",
+    "city": "Rexdale",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cd8",
+    "name": "River Grove Animal Hospital",
+    "city": "Mississauga",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000521",
+  "name": "Dr. Dragos Tudose",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f84",
+    "name": "Huronia Veterinary Emergency Clinic",
+    "city": "Barrie",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001fa9",
+    "name": "Huronia Veterinary Urgent Care",
+    "city": "Orillia",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0005e2",
+  "name": "Dr. Jason Grant Ellis",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e71",
+    "name": "Hwy 2 Veterinary Office",
+    "city": "Ajax",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d27",
+    "name": "Whites Road Animal Hospital",
+    "city": "Pickering",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000d25",
+  "name": "Dr. Mandeep Chaudhary",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001da8",
+    "name": "Hwy 401 Warden Pet Hospital",
+    "city": "Scarborough",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002050",
+    "name": "Northpoint Veterinary Hospital",
+    "city": "Bolton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00116e",
+  "name": "Dr. Amandeep Singh Moondian",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001dda",
+    "name": "Inglewood Veterinary Clinic",
+    "city": "Inglewood",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "68c1ac4d4d904e74c8644c28",
+    "name": "Maple Mobile Veterinary Services",
+    "city": "Caledon",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0002e6",
+  "name": "Dr. Koorosh Iran-Manesh",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002098",
+    "name": "Innes Road Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002083",
+    "name": "Montreal Road Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0002fc",
+  "name": "Dr. Sasha Phillippa Black",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e4d",
+    "name": "King Hopkins Pet Hospital",
+    "city": "Whitby",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cde",
+    "name": "Millennium City Veterinary Hospital",
+    "city": "Pickering",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00036c",
+  "name": "Dr. Mark Kewin Rutherford",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001dcf",
+    "name": "Kingston Mills Veterinary Hospital",
+    "city": "Glenburnie",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001cf7",
+    "name": "Rutherford Equine Services",
+    "city": "Kingston",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0000c4",
+  "name": "Dr. Christine Renee Brandon",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00224e",
+    "name": "Kingston Regional Pet Hospital",
+    "city": "Kingston",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002031",
+    "name": "Quinte Regional Pet Hospital",
+    "city": "Belleville",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001035",
+  "name": "Dr. Christina Erra Winifred Martin",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e30",
+    "name": "Kingsville Animal Clinic",
+    "city": "Kingsville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00213a",
+    "name": "Lakeside Animal Hospital",
+    "city": "Kingsville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0007c0",
+  "name": "Dr. Bruce Jeffrey Buckland",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f45",
+    "name": "Kirkton Veterinary Clinic",
+    "city": "Kirkton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00212a",
+    "name": "St. Marys Veterinary Clinic",
+    "city": "St. Marys",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001046",
+  "name": "Dr. Meghan Leslie Wallace",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c6e",
+    "name": "Kitchener-Waterloo Humane Society Animal Hospital",
+    "city": "Kitchener",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5c12f01d542026187af1ab04",
+    "name": "Stratford Perth Humane Society Spay-Neuter Clinic",
+    "city": "Stratford",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000aee",
+  "name": "Dr. Rebecca Lauren Greenstein",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f93",
+    "name": "Kleinburg Veterinary Hospital",
+    "city": "Kleinburg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c78",
+    "name": "Nobleton Veterinary Clinic",
+    "city": "Nobleton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000bcf",
+  "name": "Dr. Nabeel Jawad Al-Azawi",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d4f",
+    "name": "Lakeshore Animal Hospital",
+    "city": "Fort Erie",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001def",
+    "name": "Lundy's Lane Animal Hospital",
+    "city": "Niagara Falls",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000fe2",
+  "name": "Dr. Kelly Lee Ferguson",
+  "practices": [
+   {
+    "id": "5f7b5497355c46061d637f0a",
+    "name": "Lanark Leeds and Grenville Spay and Neuter Clinic",
+    "city": "Brockville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "610d55e24d904e27c8995394",
+    "name": "Southeastern Ontario Spay Neuter Clinic",
+    "city": "Trenton",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00039e",
+  "name": "Dr. Faye Lynn Whyte",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c26",
+    "name": "Land O'Lakes Veterinary Services",
+    "city": "Northbrook",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001ca8",
+    "name": "Richmond Veterinary Clinic",
+    "city": "Napanee",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5c6ea1a35420263d230abb6d",
+  "name": "Dr. Taylor Ann Cockburn",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002149",
+    "name": "Lauzon Veterinary Hospital",
+    "city": "Windsor",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002150",
+    "name": "Walker Road Animal Hospital",
+    "city": "Windsor",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001016",
+  "name": "Dr. Laura Danielle Palumbo",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f0d",
+    "name": "London Integrative Veterinary Services",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d85",
+    "name": "Palumbo Mobile Veterinary Services",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0010c0",
+  "name": "Dr. Bruce Carlyle Watt",
+  "practices": [
+   {
+    "id": "65b7e839539d501bc2dce950",
+    "name": "Maple Crest Veterinary Services",
+    "city": "Uxbridge",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001ed4",
+    "name": "Uxbridge Equine Veterinary Services",
+    "city": "Uxbridge",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "61fc5c16d096cfd695a76959",
+  "name": "Dr. Elijah Michael",
+  "practices": [
+   {
+    "id": "65c98aa0d096cfa4fb940966",
+    "name": "Markham Pet Mobile Clinic",
+    "city": "Markham",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001d08",
+    "name": "Veterinary Emergency, Urgent Care and Referral Clinic of York Region",
+    "city": "Newmarket",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000967",
+  "name": "Dr. Hayley Brooke Martin",
+  "practices": [
+   {
+    "id": "58dd66aa33579aecd5a528f8",
+    "name": "Martin Veterinary Services",
+    "city": "Utterson",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "617da370d096cfd1d6c435b1",
+    "name": "Muskoka Lakes Veterinary Clinic",
+    "city": "Huntsville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0003b0",
+  "name": "Dr. Christopher Balazs Drabant",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002220",
+    "name": "Metro Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001c7e",
+    "name": "Riverdale Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000b3d",
+  "name": "Dr. Carlie Lauren Paquette",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00208e",
+    "name": "Mohns Ave. Veterinary Services",
+    "city": "Petawawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002287",
+    "name": "Pembroke Animal Hospital",
+    "city": "Pembroke",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5e62dd116f98592369f0152a",
+  "name": "Dr. Cristin Anne McCarty-Van Straaten",
+  "practices": [
+   {
+    "id": "632fa70f4d904e6536370a89",
+    "name": "MVS Equine Veterinary Services",
+    "city": "Guelph",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "588a41a8336166165d002489",
+    "name": "Nith Valley Animal Hospital",
+    "city": "New Hamburg",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000f89",
+  "name": "Dr. Martyn John Potter",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001fab",
+    "name": "Newmarket Animal Hospital",
+    "city": "Newmarket",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001bff",
+    "name": "Potter Veterinary Services",
+    "city": "Newmarket",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000e7c",
+  "name": "Dr. Michael Bondar",
+  "practices": [
+   {
+    "id": "690265553b677a13021a9f22",
+    "name": "Nuleaf Veterinary Group",
+    "city": "Barrie",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5ed11932b862c74dc754001f",
+    "name": "Pet Wellness Telemedicine Services of Ontario",
+    "city": "Ancaster",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "616c8a424d904ee225245018",
+  "name": "Dr. Hannah Cornelia Pope",
+  "practices": [
+   {
+    "id": "622f7e46539d50cc28a52b12",
+    "name": "Oak Ridges Equine Vet",
+    "city": "Millbrook",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "633d96c1539d5054f44c7ba1",
+    "name": "Peterborough Regional Spay Neuter Clinic",
+    "city": "Peterborough",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00084a",
+  "name": "Dr. Gillian Gail Egli",
+  "practices": [
+   {
+    "id": "597f7ad503bf9044243606b9",
+    "name": "Oak West Animal Clinic",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00215d",
+    "name": "Oakridge Animal Clinic",
+    "city": "London",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000b6c",
+  "name": "Dr. Shelley Marlene Hutchings",
+  "practices": [
+   {
+    "id": "588a41a8336166165d002037",
+    "name": "Ottawa Humane Society Animal Clinic",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "67324bf516e8ddbc3ce399bf",
+    "name": "SH Veterinary",
+    "city": "Metcalfe",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000044",
+  "name": "Dr. Marissa Kelso",
+  "practices": [
+   {
+    "id": "66fc40f32d854e3f1f446d37",
+    "name": "Ottawa Valley Spay Neuter Clinic",
+    "city": "Kemptville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "60c7e66dd096cf82f56f8c9a",
+    "name": "Rideau River Mobile Veterinary",
+    "city": "Kars",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef001123",
+  "name": "Dr. Barbara Pauline Lewars",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00211e",
+    "name": "Owen Sound Veterinary Clinic",
+    "city": "Owen Sound",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002108",
+    "name": "Westend Veterinary Hospital",
+    "city": "Orangeville",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000e11",
+  "name": "Dr. Choonghwan Kim",
+  "practices": [
+   {
+    "id": "698e21203b677aeb8e9300e8",
+    "name": "Parkway Animal Hospital",
+    "city": "Greely",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "637b8856d096cf0598c058af",
+    "name": "Parkwood Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0002cc",
+  "name": "Dr. Behrooz Tamjidi",
+  "practices": [
+   {
+    "id": "5a4bbc1133579a2b6306ae31",
+    "name": "Parliament Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002057",
+    "name": "Toronto North Animal Hospital",
+    "city": "Toronto",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "5acbc156e610d8510c9e32d4",
+  "name": "Dr. Jessalyn Kay Walkey",
+  "practices": [
+   {
+    "id": "61743e7c539d50e3e73b75f7",
+    "name": "Production Poultry Veterinary Services - Huron",
+    "city": "Brucefield",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "588a41a8336166165d0020b7",
+    "name": "Production Poultry Veterinary Services - Wellington",
+    "city": "Arthur",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000905",
+  "name": "Dr. Iftikhar Hussain Jaffery",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001c8b",
+    "name": "Royal Veterinary Hospital",
+    "city": "Waterdown",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001e2c",
+    "name": "Walkers Line Veterinary Hospital",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000fec",
+  "name": "Dr. Leslie Nicole Reade",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00226a",
+    "name": "Sharbot Lake Veterinary Services",
+    "city": "Sharbot Lake",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f1d",
+    "name": "Sydenham Veterinary Services",
+    "city": "Sydenham",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000be6",
+  "name": "Dr. Janice Eleanor Honda",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d6e",
+    "name": "Sixteen Mile Veterinary Clinic",
+    "city": "Oakville",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00223d",
+    "name": "Southside Pet Hospital",
+    "city": "Burlington",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00080c",
+  "name": "Dr. Vinod Khanna",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001d1a",
+    "name": "South Sarnia Veterinary Services",
+    "city": "Sarnia",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001dad",
+    "name": "Watford Veterinary Clinic",
+    "city": "Watford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0010cc",
+  "name": "Dr. Lesley Dawn Beach",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001cfc",
+    "name": "Stittsville Small Animal Clinic",
+    "city": "Stittsville",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020f1",
+    "name": "VCA Bells Corners Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000783",
+  "name": "Dr. David Robertson",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00216e",
+    "name": "Stoneybrook Animal Hospital",
+    "city": "London",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002156",
+    "name": "West London Pet Hospital",
+    "city": "London",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0010a4",
+  "name": "Dr. Puja Nanayakkara",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e5d",
+    "name": "The Cat Clinic",
+    "city": "Hamilton",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d00229b",
+    "name": "Village Cat Clinic",
+    "city": "Ancaster",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "58ee48a90c81142ee9fe4819",
+  "name": "Dr. Laura Marie Ryan",
+  "practices": [
+   {
+    "id": "5d1f9cc65420262fe530fb6f",
+    "name": "Thedford Mobile Veterinary Services",
+    "city": "Thedford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5d39c67d6f985912a246ac36",
+    "name": "Thedford Veterinary Hospital",
+    "city": "Thedford",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef00117d",
+  "name": "Dr. Karen Ann Ward",
+  "practices": [
+   {
+    "id": "689398a14d904e18a9e2fdd8",
+    "name": "Toronto Humane Society Community Animal Health Centre",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0021aa",
+    "name": "Toronto Humane Society Veterinary Clinic",
+    "city": "Toronto",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0016f2",
+  "name": "Dr. Kuldeep Singh Chattha",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001eac",
+    "name": "Trim Pet Hospital",
+    "city": "Orleans",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5af979a1e610d8b2626e1f2f",
+    "name": "Vimy Bridge Animal Hospital",
+    "city": "Gloucester",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef0004fb",
+  "name": "Dr. Paula Marie Dupuy",
+  "practices": [
+   {
+    "id": "588a41a8336166165d00209f",
+    "name": "Troy Animal Hospital",
+    "city": "Millgrove",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "5fd2921f3b694826df3da717",
+    "name": "Troy Equine Services",
+    "city": "Sheffield",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000152",
+  "name": "Dr. Robert George Swackhammer",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001f44",
+    "name": "Upper Grand Veterinary Services",
+    "city": "Ariss",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   },
+   {
+    "id": "5fd2996eb862c701ba0d2ad5",
+    "name": "Upper Grand Veterinary Services - Arthur",
+    "city": "Arthur",
+    "position": "Director & Owner",
+    "active": true,
+    "companion": false
+   }
+  ]
+ },
+ {
+  "registrant_id": "609dce44539d5085242fc0ee",
+  "name": "Dr. Yin-An Niu",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001cd9",
+    "name": "VCA Bayview Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020ee",
+    "name": "VCA Ottawa Veterinary Hospital",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000a8b",
+  "name": "Dr. Jennifer Maureen Girard",
+  "practices": [
+   {
+    "id": "588a41a8336166165d0020f2",
+    "name": "VCA Blair Animal Hospital",
+    "city": "Ottawa",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d002172",
+    "name": "VCA Northumberland Animal Hospital",
+    "city": "Colborne",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000ddc",
+  "name": "Dr. Jodi Scott Thompson",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001cfe",
+    "name": "VCA Burnham Mansion Animal Hospital",
+    "city": "Peterborough",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d001f86",
+    "name": "VCA Jackson Creek Animal Hospital",
+    "city": "Peterborough",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ },
+ {
+  "registrant_id": "588a3bfd33616616ef000b64",
+  "name": "Dr. Carole Laura Both",
+  "practices": [
+   {
+    "id": "588a41a8336166165d001e2a",
+    "name": "VCA Eastside Pet Vet Hospital",
+    "city": "Stoney Creek",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   },
+   {
+    "id": "588a41a8336166165d0020d8",
+    "name": "VCA Lexington Rd. Animal Hospital",
+    "city": "Waterloo",
+    "position": "Director",
+    "active": true,
+    "companion": true
+   }
+  ]
+ }
+]
