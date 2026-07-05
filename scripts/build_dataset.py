@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
-"""Build the merged Ontario clinic dataset.
+"""Build the Ontario clinic dataset for the map.
+
+Universe: the CVO public register (every accredited practice, with addresses)
+filtered to companion-animal-relevant practices. Ownership is layered on top:
+
+  corporate     - matched to the CBC consolidator list (NVA/VetStrategy/VCA),
+                  or registered under the consolidator's own brand (VCA prefix)
+  institutional - SPCA / humane societies / municipal / university clinics
+  group         - same person directs-or-owns 3+ practices (local multi-location
+                  operations, e.g. Juno Veterinary)
+  independent   - everything else (assumed independent until verified)
 
 Inputs:
-  data/source/cbc-corporate-clinics-2025-01.csv  (CBC research, Jan 2025)
-  data/osm-vets-on.json                          (Overpass output, see fetch_osm.py)
+  data/cvo-practices.json                       (see fetch_cvo_details.py)
+  data/source/cbc-corporate-clinics-2025-01.csv (CBC research, Jan 2025)
+  data/geocode-cache.json                       (Nominatim cache, grows as needed)
 
 Output:
   docs/data/clinics.geojson
-
-Every feature gets:
-  name, city, ownership (corporate|independent), owner_group, parent,
-  status (verified|assumed), source, precision (exact|geocoded|city), osm_id
 """
 import csv
 import json
@@ -23,72 +30,60 @@ import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+CVO_IN = ROOT / "data" / "cvo-practices.json"
 CSV_IN = ROOT / "data" / "source" / "cbc-corporate-clinics-2025-01.csv"
-OSM_IN = ROOT / "data" / "osm-vets-on.json"
 GEOCODE_CACHE = ROOT / "data" / "geocode-cache.json"
 OUT = ROOT / "docs" / "data" / "clinics.geojson"
 
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
-USER_AGENT = "local-vet-map/0.1 (ownership research; github.com/sterlingwes/local-vet-map)"
+USER_AGENT = "local-vet-map/0.2 (ownership research; github.com/sterlingwes/local-vet-map)"
 
-CBC_SOURCE = "CBC News research (Jan 2025)"
-OSM_SOURCE = "OpenStreetMap"
-
-# Ultimate owners of the consolidator groups in the CBC data (as of Jan 2025)
 PARENTS = {
     "NVA": "National Veterinary Associates — JAB Holding (private equity)",
-    "Vet Strategy": "VetStrategy — IVC Evidensia (EQT / Silver Lake private equity, Nestlé minority)",
+    "VetStrategy": "VetStrategy — IVC Evidensia (EQT / Silver Lake private equity, Nestlé minority)",
     "VCA": "VCA Canada — Mars Inc.",
 }
-GROUP_LABEL = {"NVA": "NVA", "Vet Strategy": "VetStrategy", "VCA": "VCA"}
+CBC_COMPANY = {"NVA": "NVA", "Vet Strategy": "VetStrategy", "VCA": "VCA"}
 
-# Cities that appear in the CBC sheet without a province and are in Ontario
 ONTARIO_BARE_CITIES = {"toronto", "ottawa", "hamilton"}
-
-MATCH_RADIUS_KM = 50  # OSM name match must be within this distance of the stated city
-DEDUPE_RADIUS_KM = 1.0
-
-
-def norm_name(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s)
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    s = s.lower().replace("&", " and ")
-    s = re.sub(r"\(.*?\)", " ", s)          # drop parentheticals e.g. (PetFocus)
-    s = re.sub(r"[^a-z0-9]+", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
-
-
-def base_name(s: str) -> str:
-    """Name with any ' – Branch' suffix removed."""
-    return norm_name(re.split(r"[–—-]", s, maxsplit=1)[0]) if re.search(r"[–—]", s) else norm_name(s)
-
+INSTITUTIONAL_RE = re.compile(
+    r"\b(spca|humane society|animal services|ovc"
+    r"|(?:university|college)\b(?!\s+(?:st\b|street|ave\b|avenue|rd\b|road|blvd|drive|dr\b)))",
+    re.I)
+GROUP_MIN_PRACTICES = 3
+FUZZY_ACCEPT = 0.72
 
 GENERIC_TOKENS = {"animal", "hospital", "veterinary", "vet", "clinic", "pet",
                   "services", "service", "centre", "center", "the", "of", "and",
                   "cat", "dog", "hopital", "veterinaire", "24", "hour", "emergency"}
 
 
+def norm_name(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = s.lower().replace("&", " and ")
+    s = re.sub(r"\(.*?\)", " ", s)
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def norm_city(s: str) -> str:
+    return norm_name((s or "").split(",")[0])
+
+
 def token_sim(a: str, b: str) -> float:
-    """Jaccard similarity of token sets, weighting distinctive tokens double."""
     ta, tb = set(a.split()), set(b.split())
     if not ta or not tb:
         return 0.0
-    inter = ta & tb
-    union = ta | tb
     w = lambda toks: sum(1 if t in GENERIC_TOKENS else 2 for t in toks)
-    return w(inter) / w(union)
-
-
-def haversine_km(a, b):
-    lat1, lon1, lat2, lon2 = map(math.radians, [a[0], a[1], b[0], b[1]])
-    h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
-    return 6371 * 2 * math.asin(math.sqrt(h))
+    return w(ta & tb) / w(ta | tb)
 
 
 class Geocoder:
     def __init__(self):
         self.cache = json.loads(GEOCODE_CACHE.read_text()) if GEOCODE_CACHE.exists() else {}
         self.last_call = 0.0
+        self.n_new = 0
 
     def lookup(self, query: str):
         if query in self.cache:
@@ -108,177 +103,193 @@ class Geocoder:
         self.last_call = time.monotonic()
         hit = [float(results[0]["lat"]), float(results[0]["lon"])] if results else None
         self.cache[query] = hit
+        self.n_new += 1
+        if self.n_new % 100 == 0:
+            self.save()
+            print(f"  ...geocoded {self.n_new} new queries")
         return hit
 
     def save(self):
         GEOCODE_CACHE.write_text(json.dumps(self.cache, indent=1, ensure_ascii=False))
 
 
-def load_corporate():
-    rows = []
+def load_cbc_ontario():
+    """CBC rows for Ontario, indexed by normalized name."""
+    by_name = {}
     with CSV_IN.open(encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
             city = row["City/Region"].strip()
-            is_on = city.endswith(", Ont.") or city.lower() in ONTARIO_BARE_CITIES
-            if not is_on:
+            if not (city.endswith(", Ont.") or city.lower() in ONTARIO_BARE_CITIES):
                 continue
-            rows.append({
-                "name": row["Name"].strip().replace("’", "'"),
-                "company": row["Company"].strip(),
-                "city": re.sub(r", Ont\.$", "", city),
-            })
-    return rows
+            rec = {
+                "name": row["Name"].strip(),
+                "group": CBC_COMPANY[row["Company"].strip()],
+                "city": norm_city(re.sub(r", Ont\.$", "", city)),
+            }
+            by_name.setdefault(norm_name(rec["name"]), []).append(rec)
+    return by_name
 
 
-def load_osm():
-    payload = json.loads(OSM_IN.read_text())
-    feats = []
-    for el in payload["elements"]:
-        tags = el.get("tags", {})
-        name = tags.get("name")
-        if not name:
-            continue
-        if el["type"] == "node":
-            lat, lon = el["lat"], el["lon"]
+def match_cbc(practice, cbc_by_name):
+    """Return the CBC group for a CVO practice, or None."""
+    name = practice["name"] or ""
+    city = norm_city(practice["city"])
+    for candidate_name in (name, re.sub(r"^VCA\s+", "", name, flags=re.I)):
+        cands = cbc_by_name.get(norm_name(candidate_name), [])
+        if len(cands) == 1:
+            return cands[0]["group"]
+        if cands:
+            same_city = [c for c in cands if c["city"] == city]
+            if same_city:
+                return same_city[0]["group"]
+    # fuzzy, same city only
+    target = norm_name(name)
+    best, best_sim = None, 0.0
+    for cands in cbc_by_name.values():
+        for c in cands:
+            if c["city"] != city:
+                continue
+            sim = token_sim(target, norm_name(c["name"]))
+            if sim > best_sim:
+                best, best_sim = c, sim
+    return best["group"] if best_sim >= FUZZY_ACCEPT else None
+
+
+def classify(practices, cbc_by_name):
+    """Attach ownership fields to each practice dict."""
+    for p in practices:
+        group = match_cbc(p, cbc_by_name)
+        if group is None and re.match(r"^VCA\b", p["name"] or "", re.I):
+            group = "VCA"
+        if group:
+            p["ownership"] = "corporate"
+            p["owner_group"] = group
+            p["parent"] = PARENTS[group]
+            p["status"] = "verified"
+        elif INSTITUTIONAL_RE.search(p["name"] or ""):
+            p["ownership"] = "institutional"
+            p["owner_group"] = None
+            p["parent"] = None
+            p["status"] = "verified"
         else:
-            c = el.get("center")
-            if not c:
-                continue
-            lat, lon = c["lat"], c["lon"]
-        feats.append({
-            "name": name.strip(),
-            "lat": lat,
-            "lon": lon,
-            "osm_id": f"{el['type']}/{el['id']}",
-            "city": tags.get("addr:city", ""),
-            "brand": tags.get("brand", ""),
-            "operator": tags.get("operator", ""),
-        })
-    # Dedupe: same normalized name within DEDUPE_RADIUS_KM
-    deduped = []
-    for f in feats:
-        dup = next((d for d in deduped
-                    if norm_name(d["name"]) == norm_name(f["name"])
-                    and haversine_km((d["lat"], d["lon"]), (f["lat"], f["lon"])) < DEDUPE_RADIUS_KM), None)
-        if not dup:
-            deduped.append(f)
-    return deduped
+            p["ownership"] = None  # decided by the group pass below
+
+    # group pass: registrant -> not-yet-classified practices they direct/own
+    by_reg = {}
+    for p in practices:
+        if p["ownership"] is not None:
+            continue
+        for person in p["people"]:
+            if person.get("registrant_id") and person.get("active") is not False:
+                by_reg.setdefault(person["registrant_id"], {"name": person["name"], "ids": set()})
+                by_reg[person["registrant_id"]]["ids"].add(p["id"])
+    group_of = {}
+    for reg in by_reg.values():
+        if len(reg["ids"]) >= GROUP_MIN_PRACTICES:
+            for pid in reg["ids"]:
+                # a practice keeps the largest group it belongs to
+                if pid not in group_of or len(reg["ids"]) > group_of[pid][1]:
+                    group_of[pid] = (reg["name"], len(reg["ids"]))
+    for p in practices:
+        if p["ownership"] is not None:
+            continue
+        if p["id"] in group_of:
+            name, n = group_of[p["id"]]
+            p["ownership"] = "group"
+            p["owner_group"] = f"{name} ({n} locations)"
+            p["parent"] = None
+            p["status"] = "verified"
+        else:
+            p["ownership"] = "independent"
+            p["owner_group"] = None
+            p["parent"] = None
+            p["status"] = "assumed"
+
+
+def locate(p, geo):
+    """Geocode a practice: address -> postal code -> city."""
+    city = (p["city"] or "").split(",")[0].strip()
+    if p["street1"]:
+        street = re.sub(r"\s*(Unit|Suite|Ste\.?|#)\s*\S+$", "", p["street1"], flags=re.I)
+        pt = geo.lookup(f"{street}, {city}, Ontario, Canada")
+        if pt:
+            return pt, "address"
+    if p["postal_code"]:
+        pt = geo.lookup(f"{p['postal_code']}, Ontario, Canada")
+        if pt:
+            return pt, "postal"
+    if city:
+        pt = geo.lookup(f"{city}, Ontario, Canada")
+        if pt:
+            return pt, "city"
+    return None, None
 
 
 def main():
-    corporate = load_corporate()
-    osm = load_osm()
+    practices = json.loads(CVO_IN.read_text())
+    keep = [p for p in practices
+            if p["companion"] or any("specialty" in c.lower() for c in p["categories_all"])]
+    print(f"{len(practices)} CVO practices, {len(keep)} companion/specialty")
+
+    cbc_by_name = load_cbc_ontario()
+    classify(keep, cbc_by_name)
+
     geo = Geocoder()
-    print(f"{len(corporate)} Ontario corporate clinics (CBC), {len(osm)} named OSM vets after dedupe")
-
-    # City centroids for disambiguating name matches
-    city_pt = {}
-    for c in sorted({r["city"] for r in corporate}):
-        city_pt[c] = geo.lookup(f"{c}, Ontario, Canada")
-    geo.save()
-
-    osm_by_name = {}
-    for f in osm:
-        osm_by_name.setdefault(norm_name(f["name"]), []).append(f)
-
-    features = []
-    claimed_osm = set()
-    stats = {"osm_match": 0, "geocoded": 0, "city_centroid": 0, "dropped": 0}
-
-    for row in corporate:
-        cpt = city_pt.get(row["city"])
-        cand = osm_by_name.get(norm_name(row["name"]), [])
-        if not cand:
-            # try matching CBC branch-suffixed names against OSM base names
-            cand = osm_by_name.get(base_name(row["name"]), [])
-        match = None
-        for f in cand:
-            if f["osm_id"] in claimed_osm:
-                continue
-            if cpt is None or haversine_km((f["lat"], f["lon"]), cpt) <= MATCH_RADIUS_KM:
-                match = f
-                break
-        if match is None and cpt is not None:
-            # fuzzy fallback: best token-set match near the stated city
-            best, best_sim = None, 0.0
-            target = norm_name(row["name"])
-            for f in osm:
-                if f["osm_id"] in claimed_osm:
-                    continue
-                if haversine_km((f["lat"], f["lon"]), cpt) > MATCH_RADIUS_KM:
-                    continue
-                sim = token_sim(target, norm_name(f["name"]))
-                if sim > best_sim:
-                    best, best_sim = f, sim
-            if best_sim >= 0.65:
-                match = best
-
-        if match:
-            claimed_osm.add(match["osm_id"])
-            lat, lon, precision, osm_id = match["lat"], match["lon"], "exact", match["osm_id"]
-            stats["osm_match"] += 1
-        else:
-            pt = geo.lookup(f"{row['name']}, {row['city']}, Ontario, Canada")
-            if pt and cpt and haversine_km(pt, cpt) > MATCH_RADIUS_KM:
-                pt = None  # geocoder wandered off; distrust it
-            if pt:
-                lat, lon, precision, osm_id = pt[0], pt[1], "geocoded", None
-                stats["geocoded"] += 1
-            elif cpt:
-                lat, lon, precision, osm_id = cpt[0], cpt[1], "city", None
-                stats["city_centroid"] += 1
-            else:
-                print(f"  DROPPED (no location): {row['name']} — {row['city']}")
-                stats["dropped"] += 1
-                continue
-
-        features.append(feature(
-            lat, lon,
-            name=row["name"], city=row["city"], ownership="corporate",
-            owner_group=GROUP_LABEL[row["company"]], parent=PARENTS[row["company"]],
-            status="verified", source=CBC_SOURCE, precision=precision, osm_id=osm_id,
-        ))
-
-    geo.save()
-
-    for f in osm:
-        if f["osm_id"] in claimed_osm:
+    features, stats = [], {}
+    for p in keep:
+        pt, precision = locate(p, geo)
+        if pt is None:
+            print(f"  DROPPED (no location): {p['name']} — {p['city']}")
+            stats["dropped"] = stats.get("dropped", 0) + 1
             continue
-        features.append(feature(
-            f["lat"], f["lon"],
-            name=f["name"], city=f["city"], ownership="independent",
-            owner_group=None, parent=None,
-            status="assumed", source=OSM_SOURCE, precision="exact", osm_id=f["osm_id"],
-        ))
+        stats[precision] = stats.get(precision, 0) + 1
+        addr = ", ".join(filter(None, [p["street1"], p["street2"], (p["city"] or "").split(",")[0],
+                                       p["postal_code"]]))
+        directors = "; ".join(f"{x['name']} ({x['position']})" for x in p["people"] if x.get("name"))
+        features.append({
+            "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": [round(pt[1], 6), round(pt[0], 6)]},
+            "properties": {
+                "name": p["name"],
+                "city": (p["city"] or "").split(",")[0],
+                "address": addr,
+                "ownership": p["ownership"],
+                "owner_group": p["owner_group"],
+                "parent": p["parent"],
+                "status": p["status"],
+                "source": "CVO public register" + (" + CBC News research (Jan 2025)"
+                                                   if p["ownership"] == "corporate" else ""),
+                "precision": precision,
+                "established": p["established"],
+                "directors": directors or None,
+                "cvo_id": p["id"],
+            },
+        })
+    geo.save()
 
-    # Spread features that share the exact same point (city centroids) into a
-    # small ring (~300 m) so every marker stays clickable. precision stays "city".
+    # spread stacked points (shared postal/city fallbacks) into a small ring
     by_pt = {}
     for f in features:
         by_pt.setdefault(tuple(f["geometry"]["coordinates"]), []).append(f)
-    for pt, group in by_pt.items():
-        if len(group) < 2:
+    for pt, grp in by_pt.items():
+        if len(grp) < 2:
             continue
-        for i, f in enumerate(group):
-            ang = 2 * math.pi * i / len(group)
-            lat = pt[1] + 0.003 * math.sin(ang)
-            lon = pt[0] + 0.004 * math.cos(ang)
-            f["geometry"]["coordinates"] = [round(lon, 6), round(lat, 6)]
+        for i, f in enumerate(grp):
+            ang = 2 * math.pi * i / len(grp)
+            f["geometry"]["coordinates"] = [round(pt[0] + 0.004 * math.cos(ang), 6),
+                                            round(pt[1] + 0.003 * math.sin(ang), 6)]
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(
-        {"type": "FeatureCollection", "features": features}, ensure_ascii=False))
-    n_corp = sum(1 for f in features if f["properties"]["ownership"] == "corporate")
-    print(f"Wrote {len(features)} clinics ({n_corp} corporate, {len(features) - n_corp} independent) -> {OUT}")
-    print(f"Corporate location quality: {stats}")
-
-
-def feature(lat, lon, **props):
-    return {
-        "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [round(lon, 6), round(lat, 6)]},
-        "properties": props,
-    }
+    OUT.write_text(json.dumps({"type": "FeatureCollection", "features": features},
+                              ensure_ascii=False))
+    counts = {}
+    for f in features:
+        p = f["properties"]
+        key = p["owner_group"] if p["ownership"] == "corporate" else p["ownership"]
+        counts[key] = counts.get(key, 0) + 1
+    print(f"Wrote {len(features)} clinics -> {OUT}")
+    print(f"Ownership: {counts}")
+    print(f"Location precision: {stats}")
 
 
 if __name__ == "__main__":
