@@ -5,6 +5,14 @@ practice in Ontario, separating clinics owned by corporate consolidators
 (ultimately private-equity groups or conglomerates) from local multi-location
 groups, institutional clinics, and independent practices.
 
+## Sources
+
+- CVO public register (practice universe, addresses, directors) —
+  `https://cvo.ca.thentiacloud.net/webs/cvo/register/`
+- CBC News research on corporate-owned veterinary clinics (January 2025) —
+  `data/source/cbc-corporate-clinics-2025-01.csv`
+- Nominatim / OpenStreetMap (geocoding)
+- Basemap tiles: CARTO / OpenStreetMap
 
 ## Data model
 
@@ -94,11 +102,4 @@ practices (175 as of the first pull). Useful signals found this way:
 5. **All of Canada**: every provincial college has an equivalent register
    (many also on Thentia Cloud) — the same pipeline generalizes.
 
-## Sources
 
-- CVO public register (practice universe, addresses, directors) —
-  `https://cvo.ca.thentiacloud.net/webs/cvo/register/`
-- CBC News research on corporate-owned veterinary clinics (January 2025) —
-  `data/source/cbc-corporate-clinics-2025-01.csv`
-- Nominatim / OpenStreetMap (geocoding)
-- Basemap tiles: CARTO / OpenStreetMap
