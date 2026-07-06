@@ -5,6 +5,8 @@ practice in Ontario, separating clinics owned by corporate consolidators
 (ultimately private-equity groups or conglomerates) from local multi-location
 groups, institutional clinics, and independent practices.
 
+(Currently just for Ontario, Canada)
+
 ## Sources
 
 - CVO public register (practice universe, addresses, directors) —
