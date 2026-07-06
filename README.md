@@ -5,8 +5,6 @@ practice in Ontario, separating clinics owned by corporate consolidators
 (ultimately private-equity groups or conglomerates) from local multi-location
 groups, institutional clinics, and independent practices.
 
-**Map:** `docs/index.html` (a static page — enable GitHub Pages on the `docs/`
-folder, or open it locally with any static file server).
 
 ## Data model
 
