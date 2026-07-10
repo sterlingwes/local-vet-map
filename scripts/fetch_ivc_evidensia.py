@@ -6,7 +6,30 @@ https://ivcevidensia.com/referral-guide embeds a Next.js app
 returns every clinic (IVC-owned or not — it's a shared referral network) within
 `range` miles, capped at 621 (the tool's own max radius). There's no "list all"
 endpoint, so this script walks a grid of points spaced so their 621-mile search
-circles cover the whole world, and keeps only clinics flagged `ivcClinic: true`.
+circles cover the whole world, and keeps only the clinics IVC actually owns.
+
+Ownership detection: the API's own `ivcClinic` flag turns out to be unreliable
+— it's `true` for the UK/Ireland (verified against ~all of that data) but
+`false` for *every* Canadian clinic returned, including ones this repo already
+knows are VetStrategy (=IVC-owned) from data/source/cbc-corporate-clinics-2025-01.csv
+(e.g. "Sherbourne Animal Hospital", Toronto). `phcStatus == "National PHC (in
+EDD)"` is a second signal that catches ~96% precision but only ~40% recall on
+its own for Canada. So this script combines three signals: the ivcClinic flag,
+the phcStatus signal, and — for Canada specifically, where we have a trusted
+independent source — a normalized name match against the CBC VetStrategy list.
+Every output record carries which signal(s) matched it, in the spirit of this
+repo's source/status/precision transparency (see README).
+
+Known gap: the referral network also returns hundreds of clinics in Germany,
+Sweden, Spain, Finland, Norway, Portugal, Switzerland, Netherlands, Belgium,
+and Denmark, but *none* of them carry the ivcClinic flag, the phcStatus
+signal, or (we have no equivalent source list to cross-check against, unlike
+Canada's CBC data) any other ownership marker in this dataset. IVC Evidensia
+does own clinics in continental Europe (mostly under the AniCura brand), so
+this script currently undercounts there — it only has good signal for the
+UK, Ireland, and Canada. Extending coverage would need another verified
+source list (e.g. AniCura's own clinic finder) to cross-reference against,
+the way we do for Canada.
 
 The site also filters by animalType (1=small animal, 2=equine, 3=farm, plus
 4-6 seen but rare); a clinic can appear under one type and not another (e.g.
@@ -23,11 +46,13 @@ Earth's surface and all of it clinic-free.
 
 Cache:  data/ivc-search-raw-cache.json   ("lat,lon,animalType" -> raw clinics
         list; gitignored, resumable — rerun to continue after an interruption)
-Output: data/ivc-evidensia-clinics-world.json  (deduped, ivcClinic-only)
+Input:  data/source/cbc-corporate-clinics-2025-01.csv  (for the Canada name match)
+Output: data/ivc-evidensia-clinics-world.json  (deduped, IVC-owned only)
 
 Run: python3 scripts/fetch_ivc_evidensia.py [--limit N] [--step-km 800]
 """
 import argparse
+import csv
 import json
 import math
 import pathlib
@@ -39,7 +64,9 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW_CACHE = ROOT / "data" / "ivc-search-raw-cache.json"
+CBC_SOURCE = ROOT / "data" / "source" / "cbc-corporate-clinics-2025-01.csv"
 OUT_CLINICS = ROOT / "data" / "ivc-evidensia-clinics-world.json"
+PHC_STATUS_SIGNAL = "National PHC (in EDD)"
 
 SEARCH_PAGE_URL = "https://external-referral-ui.azurewebsites.net/en/search"
 DATA_URL_TMPL = "https://external-referral-ui.azurewebsites.net/_next/data/{build_id}/en/search.json"
@@ -131,7 +158,41 @@ def fetch_point(build_id: str, lat: float, lon: float, animal_type: str):
     return None
 
 
-def extract(clinic: dict) -> dict:
+def normalize_name(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", (name or "").lower()).strip()
+
+
+def load_cbc_vetstrategy_names() -> set:
+    """Normalized names of clinics the CBC Jan-2025 research attributes to VetStrategy
+    (IVC Evidensia's Canadian brand) — used as a Canada-specific ownership signal
+    since the referral-guide API's own flags are unreliable there (see docstring)."""
+    names = set()
+    if not CBC_SOURCE.exists():
+        return names
+    with CBC_SOURCE.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.reader(f):
+            if len(row) < 2:
+                continue
+            name, owner = row[0], row[1]
+            if "vet strategy" in owner.lower() or "vetstrategy" in owner.lower():
+                for part in re.split(r"\|", name):
+                    names.add(normalize_name(part))
+    return names
+
+
+def ownership_signals(clinic: dict, cbc_vetstrategy_names: set) -> list:
+    """Which signal(s) indicate this clinic is IVC Evidensia-owned, if any."""
+    signals = []
+    if clinic.get("ivcClinic"):
+        signals.append("ivcClinic flag")
+    if clinic.get("phcStatus") == PHC_STATUS_SIGNAL:
+        signals.append("phcStatus")
+    if clinic.get("country") == "Canada" and normalize_name(clinic.get("name")) in cbc_vetstrategy_names:
+        signals.append("CBC VetStrategy name match")
+    return signals
+
+
+def extract(clinic: dict, signals: list) -> dict:
     coords = (clinic.get("location") or {}).get("coordinates") or {}
     return {
         "site_id": clinic.get("siteId"),
@@ -151,6 +212,7 @@ def extract(clinic: dict) -> dict:
         "phc_status": clinic.get("phcStatus"),
         "google_rate": clinic.get("googleRate"),
         "google_places_id": clinic.get("googlePlacesId"),
+        "ownership_signals": signals,
         "source": "IVC Evidensia referral guide",
     }
 
@@ -194,12 +256,14 @@ def main():
         time.sleep(DELAY_S)
     RAW_CACHE.write_text(json.dumps(cache))
 
+    cbc_vetstrategy_names = load_cbc_vetstrategy_names()
     by_site_id = {}
     for clinics in cache.values():
         for c in clinics:
-            if not c.get("ivcClinic"):
+            signals = ownership_signals(c, cbc_vetstrategy_names)
+            if not signals:
                 continue
-            by_site_id[c["siteId"]] = extract(c)
+            by_site_id[c["siteId"]] = extract(c, signals)
     clinics_out = sorted(by_site_id.values(), key=lambda c: (c["country"] or "", c["name"] or ""))
     OUT_CLINICS.write_text(json.dumps(clinics_out, indent=1, ensure_ascii=False))
 
