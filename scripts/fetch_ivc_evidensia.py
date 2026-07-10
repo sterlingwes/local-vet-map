@@ -10,7 +10,16 @@ circles cover the whole world, and keeps only clinics flagged `ivcClinic: true`.
 
 The site also filters by animalType (1=small animal, 2=equine, 3=farm, plus
 4-6 seen but rare); a clinic can appear under one type and not another (e.g.
-equine-only referral centres), so each grid point is queried once per type.
+equine-only referral centres). We only care about small-animal (companion)
+clinics here, so we only query animalType=1 — pass --animal-types to widen
+that if needed.
+
+To avoid burning requests on open ocean, the grid is clipped to a handful of
+coarse continental bounding boxes (see CONTINENT_BBOXES) rather than sweeping
+the full globe. These are deliberately generous rectangles, not real
+coastlines, so they still include some empty sea/desert — but they cut out
+the Pacific/Atlantic/Southern/Arctic oceans and Antarctica, which is most of
+Earth's surface and all of it clinic-free.
 
 Cache:  data/ivc-search-raw-cache.json   ("lat,lon,animalType" -> raw clinics
         list; gitignored, resumable — rerun to continue after an interruption)
@@ -35,7 +44,18 @@ OUT_CLINICS = ROOT / "data" / "ivc-evidensia-clinics-world.json"
 SEARCH_PAGE_URL = "https://external-referral-ui.azurewebsites.net/en/search"
 DATA_URL_TMPL = "https://external-referral-ui.azurewebsites.net/_next/data/{build_id}/en/search.json"
 RANGE_MILES = 621
-ANIMAL_TYPES = ["1", "2", "3", "4", "5", "6"]
+ANIMAL_TYPES = ["1"]  # small animal / companion only — see module docstring
+# Rough (lat_min, lat_max, lon_min, lon_max) rectangles covering inhabited
+# landmasses, used to skip grid points that fall in open ocean or Antarctica.
+CONTINENT_BBOXES = [
+    (7, 72, -168, -52),      # North America
+    (-56, 13, -82, -34),     # South America
+    (34, 71, -25, 45),       # Europe
+    (-35, 38, -18, 52),      # Africa
+    (-11, 78, 26, 180),      # Asia
+    (50, 72, -180, -168),    # far-eastern Russia (crosses the antimeridian)
+    (-48, 0, 110, 180),      # Australia / Oceania
+]
 HEADERS = {
     "Accept": "*/*",
     "Accept-Language": "en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
@@ -59,12 +79,20 @@ def get_build_id() -> str:
     return m.group(1)
 
 
-def build_grid(step_km: float, lat_min: float = -75.0, lat_max: float = 78.0):
-    """Grid of (lat, lon) points spaced so 621-mile search circles cover the globe.
+def in_land_bbox(lat: float, lon: float) -> bool:
+    return any(
+        lat_min <= lat <= lat_max and lon_min <= lon <= lon_max
+        for lat_min, lat_max, lon_min, lon_max in CONTINENT_BBOXES
+    )
+
+
+def build_grid(step_km: float, lat_min: float = -56.0, lat_max: float = 78.0):
+    """Grid of (lat, lon) points spaced so 621-mile search circles cover land.
 
     Row spacing is constant in km; column spacing widens near the poles (by
     1/cos(lat)) to keep it roughly constant in km too, so we don't over-sample
-    near the equator or under-sample near the poles.
+    near the equator or under-sample near the poles. Points outside
+    CONTINENT_BBOXES (open ocean, Antarctica) are dropped.
     """
     points = []
     lat = lat_min
@@ -73,7 +101,8 @@ def build_grid(step_km: float, lat_min: float = -75.0, lat_max: float = 78.0):
         lon_step_deg = min(step_km / (111.32 * max(math.cos(math.radians(lat)), 0.01)), 360.0)
         lon = -180.0
         while lon < 180.0:
-            points.append((round(lat, 4), round(lon, 4)))
+            if in_land_bbox(lat, lon):
+                points.append((round(lat, 4), round(lon, 4)))
             lon += lon_step_deg
         lat += lat_step_deg
     return points
@@ -130,18 +159,21 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None, help="fetch at most N uncached grid queries")
     ap.add_argument("--step-km", type=float, default=800.0, help="grid spacing in km (default 800, radius is 999km/621mi)")
+    ap.add_argument("--animal-types", default=",".join(ANIMAL_TYPES),
+                     help="comma-separated animalType ids to query (default: 1, small animal only)")
     args = ap.parse_args()
+    animal_types = args.animal_types.split(",")
 
     build_id = get_build_id()
     print(f"build id: {build_id}")
 
     grid = build_grid(args.step_km)
-    queries = [(lat, lon, at) for (lat, lon) in grid for at in ANIMAL_TYPES]
+    queries = [(lat, lon, at) for (lat, lon) in grid for at in animal_types]
     cache = json.loads(RAW_CACHE.read_text()) if RAW_CACHE.exists() else {}
     todo = [q for q in queries if f"{q[0]},{q[1]},{q[2]}" not in cache]
     if args.limit is not None:
         todo = todo[: args.limit]
-    print(f"{len(grid)} grid points x {len(ANIMAL_TYPES)} animal types = {len(queries)} queries, "
+    print(f"{len(grid)} grid points x {len(animal_types)} animal types = {len(queries)} queries, "
           f"{len(cache)} cached, fetching {len(todo)}")
 
     failures = 0
